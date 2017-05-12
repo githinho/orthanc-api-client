@@ -11,17 +11,17 @@ import java.util.List;
  */
 public class Test {
 
-    private static final String API_BASE_URL = "";
+    private static final String API_BASE_URL = "http://demo.orthanc-server.com";
     private static final String USERNAME = "";
     private static final String PASSWORD = "";
 
-    private static RestClient client = new RestClient(API_BASE_URL, USERNAME, PASSWORD, true);
+    private static RestClient client = new RestClient(API_BASE_URL, USERNAME, PASSWORD, false);
 
     public static void main(String[] args) {
-        String patientId = "b6589fc6-ab0dc82c-f12099d1-c2d40ab9-94e8410c";
-        String studyId = "fb39cc28-2cbd739c-6f554cdb-effc4460-519234c8";
-        String seriesId = "2a0b635e-fd457973-66e8ac9b-7ec5c8ce-6f0ba05e";
-        String instancesId = "a9097d88-fcedc876-308089dc-d2f101ca-d37e04d3";
+        String patientId = "da39a3ee-5e6b4b0d-3255bfef-95601890-afd80709";
+        String studyId = "27f7126f-4f66fb14-03f4081b-f9341db2-53925988";
+        String seriesId = "a69a10d7-068c5263-8aab53fe-de7af5f2-373a74bd";
+        String instancesId = "38b2a146-1a11768b-4b140230-21f7de01-19873143";
 
         printSystemInfo();
 
