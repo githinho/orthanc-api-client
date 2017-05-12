@@ -19,8 +19,7 @@ public class TestMock {
             List<String> patientsIds = client.getPatientsIds();
             assertEquals(patientsIds.size(), 7);
         } catch (OrthancException e) {
-            e.printStackTrace();
-            fail(e.getMessage());
+            handleOrthancException(e);
         }
     }
 
@@ -31,10 +30,23 @@ public class TestMock {
             List<String> studiesIds = client.getStudiesIds();
             assertEquals(studiesIds.size(), 7);
         } catch (OrthancException e) {
-            e.printStackTrace();
-            fail(e.getMessage());
+            handleOrthancException(e);
         }
     }
 
+    @org.junit.Test
+    public void testListOfSeries() throws IOException {
+        RestClient client = MockClientConstructor.getSeriesIds();
+        try {
+            List<String> studiesIds = client.getSeries();
+            assertEquals(studiesIds.size(), 23);
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
 
+    private void handleOrthancException(OrthancException e) {
+        e.printStackTrace();
+        fail(e.getMessage());
+    }
 }

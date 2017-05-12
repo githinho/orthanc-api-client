@@ -129,6 +129,11 @@ public class RestClient {
         return (List<Series>) checkResponse(call);
     }
 
+    public List<String> getSeries() throws IOException, OrthancException {
+        Call<List<String>> call = service.getSeries();
+        return (List<String>) checkResponse(call);
+    }
+
     public Series getSeries(String seriesId) throws IOException, OrthancException {
         Call<Series> call = service.getSeries(seriesId);
         return (Series) checkResponse(call);
