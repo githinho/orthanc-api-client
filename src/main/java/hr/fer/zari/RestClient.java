@@ -150,6 +150,11 @@ public class RestClient {
         return (List<Instance>) checkResponse(call);
     }
 
+    public List<String> getInstances() throws IOException, OrthancException {
+        Call<List<String>> call = service.getInstances();
+        return (List<String>) checkResponse(call);
+    }
+
     public Instance getInstance(String instanceId) throws IOException, OrthancException {
         Call<Instance> call = service.getInstance(instanceId);
         return (Instance) checkResponse(call);

@@ -45,6 +45,17 @@ public class TestMock {
         }
     }
 
+    @org.junit.Test
+    public void testListOfInstances() throws IOException {
+        RestClient client = MockClientConstructor.getInstancesIds();
+        try {
+            List<String> studiesIds = client.getInstances();
+            assertEquals(studiesIds.size(), 2352);
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
     private void handleOrthancException(OrthancException e) {
         e.printStackTrace();
         fail(e.getMessage());
