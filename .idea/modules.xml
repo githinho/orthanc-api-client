@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/orthanc-client-api.iml" filepath="$PROJECT_DIR$/.idea/modules/orthanc-client-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pacs-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/pacs-api_main.iml" group="pacs-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pacs-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/pacs-api_test.iml" group="pacs-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orthanc-client-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/orthanc-client-api_main.iml" group="orthanc-client-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orthanc-client-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/orthanc-client-api_test.iml" group="orthanc-client-api" />
     </modules>
   </component>
 </project>

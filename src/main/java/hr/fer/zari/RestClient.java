@@ -129,6 +129,11 @@ public class RestClient {
         return (List<Series>) checkResponse(call);
     }
 
+    public List<String> getSeries() throws IOException, OrthancException {
+        Call<List<String>> call = service.getSeries();
+        return (List<String>) checkResponse(call);
+    }
+
     public Series getSeries(String seriesId) throws IOException, OrthancException {
         Call<Series> call = service.getSeries(seriesId);
         return (Series) checkResponse(call);
@@ -143,6 +148,11 @@ public class RestClient {
     public List<Instance> getInstacesForSeries(String seriesId) throws IOException, OrthancException {
         Call<List<Instance>> call = service.getInstancesForSeries(seriesId);
         return (List<Instance>) checkResponse(call);
+    }
+
+    public List<String> getInstances() throws IOException, OrthancException {
+        Call<List<String>> call = service.getInstances();
+        return (List<String>) checkResponse(call);
     }
 
     public Instance getInstance(String instanceId) throws IOException, OrthancException {
