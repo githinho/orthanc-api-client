@@ -1,9 +1,6 @@
 import hr.fer.zari.OrthancException;
 import hr.fer.zari.RestClient;
-import hr.fer.zari.models.Patient;
-import hr.fer.zari.models.Series;
-import hr.fer.zari.models.Study;
-import hr.fer.zari.models.SystemInfo;
+import hr.fer.zari.models.*;
 
 import java.io.IOException;
 import java.util.List;
@@ -99,6 +96,17 @@ public class TestMock {
         try {
             Series series = client.getSeries("1");
             assertEquals(series.getInstances().get(0), "38b2a146-1a11768b-4b140230-21f7de01-19873143");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
+    @org.junit.Test
+    public void testInstance() throws IOException {
+        RestClient client = MockClientConstructor.getInstance();
+        try {
+            Instance instance = client.getInstance("1");
+            assertEquals(instance.getMainDicomTags().get("ImageIndex"), "39");
         } catch (OrthancException e) {
             handleOrthancException(e);
         }
