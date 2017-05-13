@@ -1,6 +1,7 @@
 import hr.fer.zari.OrthancException;
 import hr.fer.zari.RestClient;
 import hr.fer.zari.models.Patient;
+import hr.fer.zari.models.Study;
 import hr.fer.zari.models.SystemInfo;
 
 import java.io.IOException;
@@ -75,6 +76,17 @@ public class TestMock {
         try {
             Patient patient = client.getPatient("1");
             assertEquals(patient.getID(), "da39a3ee-5e6b4b0d-3255bfef-95601890-afd80709");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
+    @org.junit.Test
+    public void testStudy() throws IOException {
+        RestClient client = MockClientConstructor.getStudy();
+        try {
+            Study study = client.getStudy("1");
+            assertEquals(study.getType(), "Study");
         } catch (OrthancException e) {
             handleOrthancException(e);
         }
