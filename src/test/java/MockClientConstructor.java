@@ -11,6 +11,7 @@ class MockClientConstructor {
     private static final String STUDIES = "studies.json";
     private static final String SERIES = "series.json";
     private static final String INSTANCES = "instances.json";
+    private static final String SYSTEM = "system.json";
 
     static RestClient getPatientsIds() throws IOException {
         return new MockClient(PATIENTS).getClient();
@@ -26,5 +27,9 @@ class MockClientConstructor {
 
     static RestClient getInstancesIds() throws IOException {
         return new MockClient(INSTANCES).getClient();
+    }
+
+    static RestClient getSystemInfo() throws IOException {
+        return new MockClient(SYSTEM).getClient();
     }
 }

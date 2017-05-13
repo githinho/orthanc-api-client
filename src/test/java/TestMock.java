@@ -1,5 +1,6 @@
 import hr.fer.zari.OrthancException;
 import hr.fer.zari.RestClient;
+import hr.fer.zari.models.SystemInfo;
 
 import java.io.IOException;
 import java.util.List;
@@ -51,6 +52,17 @@ public class TestMock {
         try {
             List<String> studiesIds = client.getInstances();
             assertEquals(studiesIds.size(), 2352);
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
+    @org.junit.Test
+    public void testSystemInfo() throws IOException {
+        RestClient client = MockClientConstructor.getSystemInfo();
+        try {
+            SystemInfo systemInfo = client.getSystemInfo();
+            assertEquals(systemInfo.getName(), "Orthanc Demo");
         } catch (OrthancException e) {
             handleOrthancException(e);
         }
