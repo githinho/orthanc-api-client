@@ -17,7 +17,7 @@ public class TestMock {
     public void testListOfPatients() throws IOException {
         RestClient client = MockClientConstructor.getPatientsIds();
         try {
-            List<String> patientsIds = client.getPatientsIds();
+            List<String> patientsIds = client.getPatientService().getPatientsIds();
             assertEquals(patientsIds.size(), 7);
         } catch (OrthancException e) {
             handleOrthancException(e);
@@ -28,7 +28,7 @@ public class TestMock {
     public void testListOfStudies() throws IOException {
         RestClient client = MockClientConstructor.getStudiesIds();
         try {
-            List<String> studiesIds = client.getStudiesIds();
+            List<String> studiesIds = client.getStudyService().getStudiesIds();
             assertEquals(studiesIds.size(), 7);
         } catch (OrthancException e) {
             handleOrthancException(e);
@@ -39,7 +39,7 @@ public class TestMock {
     public void testListOfSeries() throws IOException {
         RestClient client = MockClientConstructor.getSeriesIds();
         try {
-            List<String> studiesIds = client.getSeries();
+            List<String> studiesIds = client.getSeriesService().getSeries();
             assertEquals(studiesIds.size(), 23);
         } catch (OrthancException e) {
             handleOrthancException(e);
@@ -50,7 +50,7 @@ public class TestMock {
     public void testListOfInstances() throws IOException {
         RestClient client = MockClientConstructor.getInstancesIds();
         try {
-            List<String> studiesIds = client.getInstances();
+            List<String> studiesIds = client.getInstanceService().getInstances();
             assertEquals(studiesIds.size(), 2352);
         } catch (OrthancException e) {
             handleOrthancException(e);
@@ -61,7 +61,7 @@ public class TestMock {
     public void testSystemInfo() throws IOException {
         RestClient client = MockClientConstructor.getSystemInfo();
         try {
-            SystemInfo systemInfo = client.getSystemInfo();
+            SystemInfo systemInfo = client.getSystemService().getSystemInfo();
             assertEquals(systemInfo.getName(), "Orthanc Demo");
         } catch (OrthancException e) {
             handleOrthancException(e);
@@ -72,7 +72,7 @@ public class TestMock {
     public void testPatient() throws IOException {
         RestClient client = MockClientConstructor.getPatient();
         try {
-            Patient patient = client.getPatient("1");
+            Patient patient = client.getPatientService().getPatient("1");
             assertEquals(patient.getID(), "da39a3ee-5e6b4b0d-3255bfef-95601890-afd80709");
         } catch (OrthancException e) {
             handleOrthancException(e);
@@ -83,7 +83,7 @@ public class TestMock {
     public void testStudy() throws IOException {
         RestClient client = MockClientConstructor.getStudy();
         try {
-            Study study = client.getStudy("1");
+            Study study = client.getStudyService().getStudy("1");
             assertEquals(study.getType(), "Study");
         } catch (OrthancException e) {
             handleOrthancException(e);
@@ -94,7 +94,7 @@ public class TestMock {
     public void testSeries() throws IOException {
         RestClient client = MockClientConstructor.getSeriesSingle();
         try {
-            Series series = client.getSeries("1");
+            Series series = client.getSeriesService().getSeries("1");
             assertEquals(series.getInstances().get(0), "38b2a146-1a11768b-4b140230-21f7de01-19873143");
         } catch (OrthancException e) {
             handleOrthancException(e);
@@ -105,7 +105,7 @@ public class TestMock {
     public void testInstance() throws IOException {
         RestClient client = MockClientConstructor.getInstance();
         try {
-            Instance instance = client.getInstance("1");
+            Instance instance = client.getInstanceService().getInstance("1");
             assertEquals(instance.getMainDicomTags().get("ImageIndex"), "39");
         } catch (OrthancException e) {
             handleOrthancException(e);

@@ -1,6 +1,5 @@
 import hr.fer.zari.OrthancException;
 import hr.fer.zari.models.*;
-import hr.fer.zari.OrthancService;
 import hr.fer.zari.RestClient;
 
 import java.io.*;
@@ -37,7 +36,7 @@ public class Test {
 
     private static void printSystemInfo() {
         try {
-            SystemInfo info = client.getSystemInfo();
+            SystemInfo info = client.getSystemService().getSystemInfo();
             System.out.println(info.toString());
         } catch (IOException e) {
             e.printStackTrace();
@@ -48,7 +47,7 @@ public class Test {
 
     private static void printListOfPatients() {
         try {
-            List<Patient> patients = client.getPatients();
+            List<Patient> patients = client.getPatientService().getPatients();
             System.out.println("NUMBER OF PATINETS: " + patients.size());
             for (Patient patient : patients) {
                 System.out.println(patient.toString());
@@ -62,7 +61,7 @@ public class Test {
 
     private static void printListOfStudies() {
         try {
-            List<Study> studies = client.getStudies();
+            List<Study> studies = client.getStudyService().getStudies();
             System.out.println("NUMBER OF STUDIES: " + studies.size());
             for (Study study : studies) {
                 System.out.println(study.toString());
@@ -76,7 +75,7 @@ public class Test {
 
     private static void downloadInstance(String instancesId) {
         try {
-            client.downloadInstanceDicom(instancesId, "");
+            client.getInstanceService().downloadInstanceDicom(instancesId, "");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (OrthancException e) {
@@ -86,7 +85,7 @@ public class Test {
 
     private static void downloadPatientArchive(String patientId) {
         try {
-            client.downloadPatientArchive(patientId, "" + patientId + ".zip");
+            client.getPatientService().downloadPatientArchive(patientId, "" + patientId + ".zip");
         } catch (IOException e) {
             e.printStackTrace();
         } catch (OrthancException e) {
@@ -96,7 +95,7 @@ public class Test {
 
     private static void printListOfStudies(String patientId) {
         try {
-            List<Study> studies = client.getStudiesForPatient(patientId);
+            List<Study> studies = client.getStudyService().getStudiesForPatient(patientId);
             for (Study study : studies) {
                 System.out.println(study.toString());
             }
@@ -109,7 +108,7 @@ public class Test {
     
     private static void printListOfSeries(String studyId) {
         try {
-            List<Series> series = client.getSeriesForStudy(studyId);
+            List<Series> series = client.getSeriesService().getSeriesForStudy(studyId);
             for (Series serie : series) {
                 System.out.println(serie.toString());
             }
@@ -122,7 +121,7 @@ public class Test {
 
     private static void printListOfInstancesForSeries(String seriesId) {
         try {
-            List<Instance> instances = client.getInstacesForSeries(seriesId);
+            List<Instance> instances = client.getInstanceService().getInstacesForSeries(seriesId);
             for (Instance instance : instances) {
                 System.out.println(instance.toString());
             }
