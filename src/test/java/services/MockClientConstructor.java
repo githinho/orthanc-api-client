@@ -28,6 +28,7 @@ class MockClientConstructor {
     private static final String SERIES_SHARED_TAGS = "series_shared_tags.json";
     private static final String SERIES_STATISTICS = "series_statistics.json";
     private static final String MODALITIES = "modalities.json";
+    private static final String INSTACE_CONTENT = "instance_content.json";
 
     static RestClient getPatientsIds() throws IOException {
         return getMockClient(PATIENTS);
@@ -101,8 +102,12 @@ class MockClientConstructor {
         return getMockClient(SERIES_STATISTICS);
     }
 
-    static RestClient getModalties() throws IOException {
+    static RestClient getModalities() throws IOException {
         return getMockClient(MODALITIES);
+    }
+
+    static RestClient getInstanceContent() throws IOException {
+        return getMockClient(INSTACE_CONTENT);
     }
 
     private static RestClient getMockClient(String file) throws IOException {

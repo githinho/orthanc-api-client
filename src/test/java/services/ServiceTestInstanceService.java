@@ -3,6 +3,7 @@ package services;
 import hr.fer.zari.OrthancException;
 import hr.fer.zari.RestClient;
 import hr.fer.zari.models.Instance;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.util.List;
@@ -47,4 +48,15 @@ public class ServiceTestInstanceService extends BaseServiceTest {
         }
     }
 
+    @org.junit.Test
+    public void testInstanceContent() throws IOException {
+        RestClient client = MockClientConstructor.getInstanceContent();
+        try {
+            List<String> content = client.getInstanceService().getInstanceContent("0");
+            assertEquals(content.size(), 82);
+            assertEquals(content.get(1), "0008-0008");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
 }

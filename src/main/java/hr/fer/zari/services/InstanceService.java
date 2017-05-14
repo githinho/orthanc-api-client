@@ -43,4 +43,9 @@ public class InstanceService extends BaseService {
         Call<List<Instance>> call = service.getPatientInstances(patientId);
         return checkResponse(call);
     }
+
+    public List<String> getInstanceContent(String instanceId) throws IOException, OrthancException {
+        Call<List<String>> call = service.getInstanceContent(instanceId);
+        return checkResponse(call);
+    }
 }

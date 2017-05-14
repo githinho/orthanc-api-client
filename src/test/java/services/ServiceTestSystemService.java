@@ -38,7 +38,7 @@ public class ServiceTestSystemService extends BaseServiceTest {
 
     @org.junit.Test
     public void testModalities() throws IOException {
-        RestClient client = MockClientConstructor.getModalties();
+        RestClient client = MockClientConstructor.getModalities();
         try {
             List<String> plugins = client.getSystemService().getModalities();
             assertEquals(plugins.size(), 1);
