@@ -40,9 +40,6 @@ public interface OrthancService {
     /* */
     @GET("patients/{id}/module")
     Call<Map<String, Header>> getPatientModule(@Path("id") String patientId);
-    /* Protection against recycling: "0" means unprotected, "1" protected */
-    @GET("patients/{id}/protected")
-    Call<Integer> getPatientProtected(@Path("id") String patientId);
     /* Retrieve all the series of this patient in a single REST call */
     @GET("patients/{id}/series")
     Call<List<Series>> getPatientSeries(@Path("id") String patientId);
@@ -215,4 +212,9 @@ public interface OrthancService {
     @GET("modalities")
     Call<List<String>> getModalities();
 
+
+    /* not implemented */
+    /* Protection against recycling: "0" means unprotected, "1" protected */
+//    @GET("patients/{id}/protected")
+//    Call<Integer> getPatientProtected(@Path("id") String patientId);
 }

@@ -138,6 +138,17 @@ public class TestMock {
         }
     }
 
+    @org.junit.Test
+    public void testSeriesForPatient() throws IOException {
+        RestClient client = MockClientConstructor.getSeriesForPatient();
+        try {
+            List<Series> series = client.getSeriesService().getSeriesForPatient("1");
+            assertEquals(series.get(0).getStatus(), "Unknown");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
     private void handleOrthancException(OrthancException e) {
         e.printStackTrace();
         fail(e.getMessage());

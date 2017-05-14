@@ -33,6 +33,11 @@ public class SeriesService extends BaseService {
         return checkResponse(call);
     }
 
+    public List<Series> getSeriesForPatient(String patientId) throws IOException, OrthancException {
+        Call<List<Series>> call = service.getPatientSeries(patientId);
+        return checkResponse(call);
+    }
+
     public void downloadSeriesArchive(String seriesId, String filePath) throws IOException, OrthancException {
         Call<ResponseBody> call = service.getSeriesZipData(seriesId);
         ResponseBody response = checkResponse(call);
