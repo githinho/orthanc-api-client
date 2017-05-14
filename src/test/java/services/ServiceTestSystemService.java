@@ -2,6 +2,7 @@ package services;
 
 import hr.fer.zari.OrthancException;
 import hr.fer.zari.RestClient;
+import hr.fer.zari.models.Statistics.SystemStatistics;
 import hr.fer.zari.models.SystemInfo;
 
 import java.io.IOException;
@@ -43,6 +44,25 @@ public class ServiceTestSystemService extends BaseServiceTest {
             List<String> plugins = client.getSystemService().getModalities();
             assertEquals(plugins.size(), 1);
             assertEquals(plugins.get(0), "modality");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
+
+    @org.junit.Test
+    public void testSystemStatistics() throws IOException {
+        RestClient client = MockClientConstructor.getSystemStatistics();
+        try {
+            SystemStatistics statistics = client.getSystemService().getStatistics();
+            assertEquals(statistics.getCountPatients(), 7);
+            assertEquals(statistics.getCountStudies(), 7);
+            assertEquals(statistics.getCountInstances(), 2352);
+            assertEquals(statistics.getCountSeries(), 23);
+            assertEquals(statistics.getTotalDiskSize(), "913213057");
+            assertEquals(statistics.getTotalDiskSizeMB(), 870);
+            assertEquals(statistics.getTotalUncompressedSize(), "913213057");
+            assertEquals(statistics.getTotalUncompressedSizeMB(), 870);
         } catch (OrthancException e) {
             handleOrthancException(e);
         }

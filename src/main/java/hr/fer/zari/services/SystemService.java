@@ -2,6 +2,7 @@ package hr.fer.zari.services;
 
 import hr.fer.zari.OrthancException;
 import hr.fer.zari.OrthancService;
+import hr.fer.zari.models.Statistics.SystemStatistics;
 import hr.fer.zari.models.SystemInfo;
 import retrofit2.Call;
 
@@ -29,6 +30,11 @@ public class SystemService extends BaseService {
 
     public List<String> getModalities() throws IOException, OrthancException {
         Call<List<String>> call = service.getModalities();
+        return checkResponse(call);
+    }
+
+    public SystemStatistics getStatistics() throws IOException, OrthancException {
+        Call<SystemStatistics> call = service.getStatistics();
         return checkResponse(call);
     }
 }

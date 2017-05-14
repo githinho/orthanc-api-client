@@ -19,7 +19,7 @@ public interface OrthancService {
     @GET("system")
     Call<SystemInfo> getSystemInfo();
     @GET("statistics")
-    Call<OverallStatistics> getStatistics();
+    Call<SystemStatistics> getStatistics();
 
     /* PATIENTS */
     @GET("patients")
