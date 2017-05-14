@@ -191,6 +191,20 @@ public class TestMock {
         }
     }
 
+
+    @org.junit.Test
+    public void testSeriesModule() throws IOException {
+        RestClient client = MockClientConstructor.getSeriesModule();
+        try {
+            Map<String, Header> module = client.getSeriesService().getSeriesModule("0");
+            Header header = module.get("0008,0031");
+            assertEquals(header.getType(), "String");
+            assertEquals(header.getName(), "SeriesTime");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
     private void handleOrthancException(OrthancException e) {
         e.printStackTrace();
         fail(e.getMessage());
