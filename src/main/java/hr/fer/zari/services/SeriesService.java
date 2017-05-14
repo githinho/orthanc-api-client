@@ -51,6 +51,11 @@ public class SeriesService extends BaseService {
         return checkResponse(call);
     }
 
+    public Map<String, Header> getSeriesSharedTags(String seriesId) throws IOException, OrthancException {
+        Call<Map<String, Header>> call = service.getSeriesSharedTags(seriesId);
+        return checkResponse(call);
+    }
+
     public void downloadSeriesArchive(String seriesId, String filePath) throws IOException, OrthancException {
         Call<ResponseBody> call = service.getSeriesZipData(seriesId);
         ResponseBody response = checkResponse(call);

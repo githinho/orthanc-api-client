@@ -73,4 +73,17 @@ public class ServiceTestSeriesService extends BaseServiceTest {
             handleOrthancException(e);
         }
     }
+
+    @org.junit.Test
+    public void testSeriesSharedTags() throws IOException {
+        RestClient client = MockClientConstructor.getSeriesSharedTags();
+        try {
+            Map<String, Header> module = client.getSeriesService().getSeriesSharedTags("5");
+            Header header = module.get("0008,0005");
+            assertEquals(header.getType(), "String");
+            assertEquals(header.getName(), "SpecificCharacterSet");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
 }

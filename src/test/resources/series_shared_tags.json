@@ -1,0 +1,312 @@
+{
+  "0008,0005": {
+    "Name": "SpecificCharacterSet",
+    "Type": "String",
+    "Value": "ISO_IR 100"
+  },
+  "0008,0008": {
+    "Name": "ImageType",
+    "Type": "String",
+    "Value": "ORIGINAL\\PRIMARY"
+  },
+  "0008,0016": {
+    "Name": "SOPClassUID",
+    "Type": "String",
+    "Value": "1.2.840.10008.5.1.4.1.1.128"
+  },
+  "0008,0020": {
+    "Name": "StudyDate",
+    "Type": "String",
+    "Value": "20040721"
+  },
+  "0008,0021": {
+    "Name": "SeriesDate",
+    "Type": "String",
+    "Value": "20040701"
+  },
+  "0008,0022": {
+    "Name": "AcquisitionDate",
+    "Type": "String",
+    "Value": "20040721"
+  },
+  "0008,0023": {
+    "Name": "ContentDate",
+    "Type": "String",
+    "Value": "20040721"
+  },
+  "0008,0030": {
+    "Name": "StudyTime",
+    "Type": "String",
+    "Value": "100851.980000"
+  },
+  "0008,0031": {
+    "Name": "SeriesTime",
+    "Type": "String",
+    "Value": "120000.000000"
+  },
+  "0008,0050": {
+    "Name": "AccessionNumber",
+    "Type": "String",
+    "Value": "1909715"
+  },
+  "0008,0060": {
+    "Name": "Modality",
+    "Type": "String",
+    "Value": "PT"
+  },
+  "0008,0070": {
+    "Name": "Manufacturer",
+    "Type": "String",
+    "Value": "CPS"
+  },
+  "0008,0090": {
+    "Name": "ReferringPhysicianName",
+    "Type": "String",
+    "Value": "LEE^PETER"
+  },
+  "0008,1030": {
+    "Name": "StudyDescription",
+    "Type": "String",
+    "Value": "Thorax^1WB_PETCT"
+  },
+  "0008,103e": {
+    "Name": "SeriesDescription",
+    "Type": "String",
+    "Value": "PET WB"
+  },
+  "0008,1090": {
+    "Name": "ManufacturerModelName",
+    "Type": "String",
+    "Value": "1023"
+  },
+  "0010,0010": {
+    "Name": "PatientName",
+    "Type": "String",
+    "Value": "ASSURANCETOURIX"
+  },
+  "0010,1010": {
+    "Name": "PatientAge",
+    "Type": "String",
+    "Value": "000Y"
+  },
+  "0010,1030": {
+    "Name": "PatientWeight",
+    "Type": "String",
+    "Value": "0"
+  },
+  "0018,0050": {
+    "Name": "SliceThickness",
+    "Type": "String",
+    "Value": "3.3750001"
+  },
+  "0018,1000": {
+    "Name": "DeviceSerialNumber",
+    "Type": "String",
+    "Value": "10"
+  },
+  "0018,1181": {
+    "Name": "CollimatorType",
+    "Type": "String",
+    "Value": "NONE"
+  },
+  "0018,1200": {
+    "Name": "DateOfLastCalibration",
+    "Type": "String",
+    "Value": "20030802\\20040716"
+  },
+  "0018,1201": {
+    "Name": "TimeOfLastCalibration",
+    "Type": "String",
+    "Value": "234421.000000\\190955.000000"
+  },
+  "0018,1242": {
+    "Name": "ActualFrameDuration",
+    "Type": "String",
+    "Value": "120000"
+  },
+  "0018,5100": {
+    "Name": "PatientPosition",
+    "Type": "String",
+    "Value": "HFS"
+  },
+  "0020,000d": {
+    "Name": "StudyInstanceUID",
+    "Type": "String",
+    "Value": "1.2.840.113745.101000.1008000.38179.6792.6324567"
+  },
+  "0020,000e": {
+    "Name": "SeriesInstanceUID",
+    "Type": "String",
+    "Value": "1.3.12.2.1107.5.1.4.36085.2.0.517714246252254"
+  },
+  "0020,0010": {
+    "Name": "StudyID",
+    "Type": "String",
+    "Value": "4123274"
+  },
+  "0020,0011": {
+    "Name": "SeriesNumber",
+    "Type": "String",
+    "Value": "606"
+  },
+  "0020,0037": {
+    "Name": "ImageOrientationPatient",
+    "Type": "String",
+    "Value": "1\\0\\0\\0\\1\\0"
+  },
+  "0020,0052": {
+    "Name": "FrameOfReferenceUID",
+    "Type": "String",
+    "Value": "1.3.12.2.1107.5.1.4.36085.2.0.517092429926251"
+  },
+  "0028,0002": {
+    "Name": "SamplesPerPixel",
+    "Type": "String",
+    "Value": "1"
+  },
+  "0028,0004": {
+    "Name": "PhotometricInterpretation",
+    "Type": "String",
+    "Value": "MONOCHROME2"
+  },
+  "0028,0010": {
+    "Name": "Rows",
+    "Type": "String",
+    "Value": "128"
+  },
+  "0028,0011": {
+    "Name": "Columns",
+    "Type": "String",
+    "Value": "128"
+  },
+  "0028,0030": {
+    "Name": "PixelSpacing",
+    "Type": "String",
+    "Value": "5.1484092\\5.1484092"
+  },
+  "0028,0051": {
+    "Name": "CorrectedImage",
+    "Type": "String",
+    "Value": "RAN\\DTIM\\NORM\\ATTN\\SCAT\\DECY"
+  },
+  "0028,0100": {
+    "Name": "BitsAllocated",
+    "Type": "String",
+    "Value": "16"
+  },
+  "0028,0103": {
+    "Name": "PixelRepresentation",
+    "Type": "String",
+    "Value": "0"
+  },
+  "0028,1050": {
+    "Name": "WindowCenter",
+    "Type": "String",
+    "Value": "7758"
+  },
+  "0028,1051": {
+    "Name": "WindowWidth",
+    "Type": "String",
+    "Value": "13964"
+  },
+  "0028,1052": {
+    "Name": "RescaleIntercept",
+    "Type": "String",
+    "Value": "0"
+  },
+  "0028,1053": {
+    "Name": "RescaleSlope",
+    "Type": "String",
+    "Value": "1.9413152"
+  },
+  "0028,1054": {
+    "Name": "RescaleType",
+    "Type": "String",
+    "Value": "BQML"
+  },
+  "0028,2110": {
+    "Name": "LossyImageCompression",
+    "Type": "String",
+    "Value": "00"
+  },
+  "0032,1032": {
+    "Name": "RequestingPhysician",
+    "Type": "String",
+    "Value": "LEE^PETER^^^M.D."
+  },
+  "0032,1060": {
+    "Name": "RequestedProcedureDescription",
+    "Type": "String",
+    "Value": "PCT PET WHOLE BODY"
+  },
+  "0040,1001": {
+    "Name": "RequestedProcedureID",
+    "Type": "String",
+    "Value": "1909715"
+  },
+  "0054,0081": {
+    "Name": "NumberOfSlices",
+    "Type": "String",
+    "Value": "227"
+  },
+  "0054,1000": {
+    "Name": "SeriesType",
+    "Type": "String",
+    "Value": "WHOLE BODY\\IMAGE"
+  },
+  "0054,1001": {
+    "Name": "Units",
+    "Type": "String",
+    "Value": "BQML"
+  },
+  "0054,1002": {
+    "Name": "CountsSource",
+    "Type": "String",
+    "Value": "EMISSION"
+  },
+  "0054,1100": {
+    "Name": "RandomsCorrectionMethod",
+    "Type": "String",
+    "Value": "DLYD"
+  },
+  "0054,1101": {
+    "Name": "AttenuationCorrectionMethod",
+    "Type": "String",
+    "Value": "CT-derived mu-map"
+  },
+  "0054,1102": {
+    "Name": "DecayCorrection",
+    "Type": "String",
+    "Value": "START"
+  },
+  "0054,1103": {
+    "Name": "ReconstructionMethod",
+    "Type": "String",
+    "Value": "OSEM 2i8s"
+  },
+  "0054,1105": {
+    "Name": "ScatterCorrectionMethod",
+    "Type": "String",
+    "Value": "Model-based"
+  },
+  "0054,1200": {
+    "Name": "AxialAcceptance",
+    "Type": "String",
+    "Value": "17"
+  },
+  "0054,1201": {
+    "Name": "AxialMash",
+    "Type": "String",
+    "Value": "3\\4"
+  },
+  "0054,1300": {
+    "Name": "FrameReferenceTime",
+    "Type": "String",
+    "Value": "0"
+  },
+  "0054,1322": {
+    "Name": "DoseCalibrationFactor",
+    "Type": "String",
+    "Value": "1569705.1"
+  }
+}
