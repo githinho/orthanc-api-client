@@ -17,6 +17,7 @@ class MockClientConstructor {
     private static final String SERIES_SINGLE = "series_single.json";
     private static final String INSTANCE = "instance.json";
     private static final String INSTANCES_FOR_PATIENT = "instances_for_patient.json";
+    private static final String PATIENT_MODULE = "patient_module.json";
 
     static RestClient getPatientsIds() throws IOException {
         return getMockClient(PATIENTS);
@@ -56,6 +57,10 @@ class MockClientConstructor {
 
     static RestClient getInstancesForPatient() throws IOException {
         return getMockClient(INSTANCES_FOR_PATIENT);
+    }
+
+    static RestClient getPatientModule() throws IOException {
+        return getMockClient(PATIENT_MODULE);
     }
 
     private static RestClient getMockClient(String file) throws IOException {

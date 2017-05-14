@@ -4,6 +4,7 @@ import hr.fer.zari.models.*;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
@@ -118,6 +119,20 @@ public class TestMock {
         try {
             List<Instance> instances = client.getInstanceService().getInstancesForPatient("1");
             assertEquals(instances.get(0).getFileSize(), 526864);
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
+    @org.junit.Test
+    public void testPatientModule() throws IOException {
+        RestClient client = MockClientConstructor.getPatientModule();
+        try {
+            Map<String, Header> module = client.getPatientService().getPatientModule("1");
+            Header header = module.get("0010,0010");
+            assertEquals(header.getType(), "String");
+            assertEquals(header.getName(), "PatientName");
+//            assertEquals(header.getValue(), "ASSURANCETOURIX");
         } catch (OrthancException e) {
             handleOrthancException(e);
         }

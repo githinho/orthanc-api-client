@@ -7,7 +7,8 @@ public class Header {
 
     private String Name;
     private String Type;
-    private String Value;
+    // TODO: problem with Value is it can be a String and or a array of Header
+//    private String Value;
 
     public String getName() {
         return Name;
@@ -17,16 +18,16 @@ public class Header {
         return Type;
     }
 
-    public String getValue() {
-        return Value;
-    }
+//    public String getValue() {
+//        return Value;
+//    }
 
     @Override
     public String toString() {
         return "Header{" +
                 "Name='" + Name + '\'' +
                 ", Type='" + Type + '\'' +
-                ", Value='" + Value + '\'' +
+//                ", Value='" + Value + '\'' +
                 '}';
     }
 }
