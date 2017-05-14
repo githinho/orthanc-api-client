@@ -18,6 +18,6 @@ public class SystemService extends BaseService {
 
     public SystemInfo getSystemInfo() throws IOException, OrthancException {
         Call<SystemInfo> call = service.getSystemInfo();
-        return (SystemInfo) checkResponse(call);
+        return checkResponse(call);
     }
 }

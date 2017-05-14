@@ -20,22 +20,22 @@ public class SeriesService extends BaseService {
 
     public List<Series> getSeriesForStudy(String studyId) throws IOException, OrthancException {
         Call<List<Series>> call = service.getSeriesForStudy(studyId);
-        return (List<Series>) checkResponse(call);
+        return checkResponse(call);
     }
 
     public List<String> getSeries() throws IOException, OrthancException {
         Call<List<String>> call = service.getSeries();
-        return (List<String>) checkResponse(call);
+        return checkResponse(call);
     }
 
     public Series getSeries(String seriesId) throws IOException, OrthancException {
         Call<Series> call = service.getSeries(seriesId);
-        return (Series) checkResponse(call);
+        return checkResponse(call);
     }
 
     public void downloadSeriesArchive(String seriesId, String filePath) throws IOException, OrthancException {
         Call<ResponseBody> call = service.getSeriesZipData(seriesId);
-        ResponseBody response = (ResponseBody) checkResponse(call);
+        ResponseBody response = checkResponse(call);
         writeResponseBodyToDisk(response, filePath);
     }
 }

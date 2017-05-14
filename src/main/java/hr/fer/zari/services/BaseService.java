@@ -18,10 +18,10 @@ public abstract class BaseService {
         this.service = service;
     }
 
-    protected <T> Object checkResponse(Call<T> call) throws IOException, OrthancException {
+    protected <T> T checkResponse(Call<T> call) throws IOException, OrthancException {
         retrofit2.Response response = call.execute();
         if (response.isSuccessful()) {
-            return response.body();
+            return (T) response.body();
         } else {
             throw new OrthancException("code = " + response.code());
         }

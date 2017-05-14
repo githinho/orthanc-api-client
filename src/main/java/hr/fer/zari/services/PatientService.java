@@ -23,12 +23,12 @@ public class PatientService extends BaseService{
 
     public List<String> getPatientsIds() throws IOException, OrthancException {
         Call<List<String>> getPatientsIds = service.getPatients();
-        return (List<String>) checkResponse(getPatientsIds);
+        return checkResponse(getPatientsIds);
     }
 
     public Patient getPatient(String patientId) throws IOException, OrthancException {
         Call<Patient> patientCall = service.getPatient(patientId);
-        return (Patient) checkResponse(patientCall);
+        return checkResponse(patientCall);
     }
 
     public List<Patient> getPatients() throws IOException, OrthancException {
@@ -42,12 +42,12 @@ public class PatientService extends BaseService{
 
     public void downloadPatientArchive(String patientId, String filePath) throws IOException, OrthancException {
         Call<ResponseBody> call = service.getPatientZipData(patientId);
-        ResponseBody response = (ResponseBody) checkResponse(call);
+        ResponseBody response = checkResponse(call);
         writeResponseBodyToDisk(response, filePath);
     }
 
     public Map<String, Header> getPatientModule(String patientId) throws IOException, OrthancException {
         Call<Map<String, Header>> call = service.getPatientModule(patientId);
-        return (Map<String, Header>) checkResponse(call);
+        return checkResponse(call);
     }
 }
