@@ -38,4 +38,9 @@ public class InstanceService extends BaseService {
         ResponseBody body = (ResponseBody) checkResponse(call);
         writeResponseBodyToDisk(body, filePath);
     }
+
+    public List<Instance> getInstancesForPatient(String patientId) throws IOException, OrthancException {
+        Call<List<Instance>> call = service.getPatientInstances(patientId);
+        return (List<Instance>) checkResponse(call);
+    }
 }

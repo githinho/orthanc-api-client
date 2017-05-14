@@ -43,7 +43,7 @@ public class RestClient {
                 .client(client)
                 .build();
         OrthancService service = retrofit.create(OrthancService.class);
-        constructServices(service);
+        createServices(service);
     }
 
     private Interceptor createInterceptor(String username, String password) {
@@ -66,7 +66,7 @@ public class RestClient {
         };
     }
 
-    private void constructServices(OrthancService service) {
+    private void createServices(OrthancService service) {
         systemService = new SystemService(service);
         patientService = new PatientService(service);
         studyService = new StudyService(service);

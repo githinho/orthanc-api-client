@@ -1,0 +1,2326 @@
+[
+  {
+    "FileSize": 526864,
+    "FileUuid": "93b12e48-93f3-4e2b-ba8c-8677f716bb64",
+    "ID": "4309044a-234be1ad-85812611-261b51a2-e1d4b1e8",
+    "IndexInSeries": 99,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\81",
+      "InstanceNumber": "99",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014843"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "3fe2846b-f373-47df-b5e0-9afef32948e9",
+    "ID": "0e3664b8-2a6520ae-8d802b00-a17f9daf-108aa741",
+    "IndexInSeries": 107,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\77",
+      "InstanceNumber": "107",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014851"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "d3fdfab1-8ac1-4be2-ab49-23a346393092",
+    "ID": "af738c90-3bb52dd7-7a336926-25c02665-460e9d4a",
+    "IndexInSeries": 76,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\92.5",
+      "InstanceNumber": "76",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014820"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "d4f55807-58fd-4a5b-b799-d959f6c633f1",
+    "ID": "5ed4a82a-6d286e3a-02fc1c69-58694494-613cc0ee",
+    "IndexInSeries": 24,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\118.5",
+      "InstanceNumber": "24",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014768"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "069d7fe5-5776-4326-a46f-c82dbb27136e",
+    "ID": "6f2b4956-bdd06917-bb903429-2e3c79d6-56453840",
+    "IndexInSeries": 43,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\109",
+      "InstanceNumber": "43",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014787"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "e9cc29d5-b292-47e7-9802-9347b54ffe3d",
+    "ID": "c2398605-02a8ddd7-bf05530b-77bc75b6-eeb4e722",
+    "IndexInSeries": 120,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\70.5",
+      "InstanceNumber": "120",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014864"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "59150a01-5ced-4367-8d68-c14d784d77c6",
+    "ID": "73522faa-d233bda2-03523fc3-9b8c3c82-df58c9cc",
+    "IndexInSeries": 152,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\54.5",
+      "InstanceNumber": "152",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014896"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "ed6d4ddd-1483-44be-bdc5-368ad963bb30",
+    "ID": "4e4bd65c-df07e1fe-1905c05f-a8e33005-ea1c55ae",
+    "IndexInSeries": 98,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\81.5",
+      "InstanceNumber": "98",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014842"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "e3aa4ded-cd35-43ba-b1b5-b9d96eaaa5ba",
+    "ID": "263a82af-d0f8d787-938fb160-6a180d2f-e696b5a4",
+    "IndexInSeries": 12,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\124.5",
+      "InstanceNumber": "12",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014756"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "d28a95f2-057f-4c9c-ba46-fd5b0c305ded",
+    "ID": "cdcad823-2ea2ead6-7f18c559-fd5a54bb-d80d82d0",
+    "IndexInSeries": 134,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\63.5",
+      "InstanceNumber": "134",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014878"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "ca4df6f2-bb87-40bf-a2f0-8333f9e8a09a",
+    "ID": "bf012167-07b150cd-2a52e784-a3810b9f-5258a1ae",
+    "IndexInSeries": 50,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\105.5",
+      "InstanceNumber": "50",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014794"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "d1e9c6f5-e5d8-48a0-86b4-393ca34ca424",
+    "ID": "dfdc76de-ee371858-db38abc4-0e600e77-f143b5cb",
+    "IndexInSeries": 133,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\64",
+      "InstanceNumber": "133",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014877"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "23b34a89-db91-42ac-b52a-3eba978fd646",
+    "ID": "b9e9e912-e686a487-9dcb43a2-2f573cc8-84193c73",
+    "IndexInSeries": 13,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\124",
+      "InstanceNumber": "13",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014757"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "bf2ed9f6-5ed8-4caf-9ccf-48a019c1e71f",
+    "ID": "c434fa78-a2b1172b-8b47c5fc-bc50b477-b62629d0",
+    "IndexInSeries": 64,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\98.5",
+      "InstanceNumber": "64",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014808"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "c6fe6248-22a6-449a-91af-5fe6c8822b5e",
+    "ID": "e791388b-f68d2529-c2e69ed1-a564184c-8cf3d85a",
+    "IndexInSeries": 39,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\111",
+      "InstanceNumber": "39",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014783"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "d71bd69f-f374-4359-bcb2-472ff5b56e2f",
+    "ID": "0e97eda7-c36b78e4-2ef49e22-10551e54-f3463fe4",
+    "IndexInSeries": 42,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\109.5",
+      "InstanceNumber": "42",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014786"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "70ec736c-2207-4bbd-83b2-41c7010b7196",
+    "ID": "e5accb1d-c593a142-2243cf0e-6e1edbb2-81233f21",
+    "IndexInSeries": 8,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\126.5",
+      "InstanceNumber": "8",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014752"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "8794bd2e-a404-4997-a584-92253ee5e48f",
+    "ID": "91dd01f7-381d37c9-51132a04-039af24d-192c6941",
+    "IndexInSeries": 44,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\108.5",
+      "InstanceNumber": "44",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014788"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "384f222d-0db3-43f8-9f29-145d6f0e7dea",
+    "ID": "ed698859-136fb0df-10767af2-34381285-99fc50fc",
+    "IndexInSeries": 4,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\128.5",
+      "InstanceNumber": "4",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014748"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "6cc84110-3b81-4f32-ad01-ccd4c324622b",
+    "ID": "8608f5cf-33c1b2ba-9abae540-bbd4cce6-3319eb70",
+    "IndexInSeries": 93,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\84",
+      "InstanceNumber": "93",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014837"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "5d90e64b-70e9-45e7-ace9-cd4c85876552",
+    "ID": "fbd9f488-417c3bc0-7515fe7d-cebdfa48-37ddef83",
+    "IndexInSeries": 139,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\61",
+      "InstanceNumber": "139",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014883"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "32ee37dc-2ba5-4d5e-b5b2-58d61acb08cc",
+    "ID": "bf0fc37f-577a02d4-3f0a4ff1-ecb0dd12-5ed06098",
+    "IndexInSeries": 127,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\67",
+      "InstanceNumber": "127",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014871"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "16852da9-d014-4500-8815-fa3736cc0b0e",
+    "ID": "43124545-e2679bdf-454084ac-4d1f57c5-b47d7d34",
+    "IndexInSeries": 145,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\58",
+      "InstanceNumber": "145",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014889"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "c42dc103-dbc1-4510-b0a2-54433e43838b",
+    "ID": "9480a9ec-2e3478d3-0d3f5009-98f7cacc-6985d6bb",
+    "IndexInSeries": 62,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\99.5",
+      "InstanceNumber": "62",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014806"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "f8e0f1f4-84f2-4c79-9774-1d196885bccc",
+    "ID": "96957ea8-d1730c72-ca791244-7964286a-4281981f",
+    "IndexInSeries": 21,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\120",
+      "InstanceNumber": "21",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014765"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "10e40834-24b7-45f5-8195-3504d1cc1b47",
+    "ID": "d8238135-8755548a-53265737-d6f14678-b877bdfe",
+    "IndexInSeries": 130,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\65.5",
+      "InstanceNumber": "130",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014874"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "33d61d31-eb8e-4591-90dc-846fbb100e3a",
+    "ID": "be896750-8e855253-bdb41b50-6f8749e1-3104a189",
+    "IndexInSeries": 55,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\103",
+      "InstanceNumber": "55",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014799"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "c135cb1e-81c9-48fb-a382-c3d0014ca57a",
+    "ID": "01252811-30d1c47b-a8c03da5-73177742-48495192",
+    "IndexInSeries": 46,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\107.5",
+      "InstanceNumber": "46",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014790"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "7cb3fba8-9a0c-4b56-80a7-119576279a19",
+    "ID": "dc9a8249-78577f62-aa44b43a-2567c2c6-11480aab",
+    "IndexInSeries": 5,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\128",
+      "InstanceNumber": "5",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014749"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "44cb5f56-57f7-46e4-88ac-368bd8098821",
+    "ID": "c0ed92d5-53a24d63-ee051a6f-ba7bd6eb-6983cfbb",
+    "IndexInSeries": 89,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\86",
+      "InstanceNumber": "89",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014833"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "7c76866a-867f-460d-a95e-0c9da2d77a32",
+    "ID": "c9a55bc1-9e98ba4b-bc455dc3-24c4c525-1b171b6c",
+    "IndexInSeries": 66,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\97.5",
+      "InstanceNumber": "66",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014810"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "8fa4f655-ffab-4ba3-b55c-a6f670c97c79",
+    "ID": "4f8ebc7e-a285440f-7b53df3d-910ba795-980b144c",
+    "IndexInSeries": 153,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\54",
+      "InstanceNumber": "153",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014897"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "57a7a504-9e81-4ade-9302-1a0142a11ef1",
+    "ID": "976ee926-6990c2f1-cb4ce0f2-7ef4da2f-31613976",
+    "IndexInSeries": 104,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\78.5",
+      "InstanceNumber": "104",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014848"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "07b9cad1-36b5-48d5-9a0d-efdbb99e8b6c",
+    "ID": "f1b47173-afb82a0d-7fca78ae-da7c7ec8-ad1f1d7b",
+    "IndexInSeries": 94,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\83.5",
+      "InstanceNumber": "94",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014838"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "90d0a250-4664-44a3-9ca9-a3cbfb2578b4",
+    "ID": "385001d2-ad221027-c5049011-70473f5d-bd239cc0",
+    "IndexInSeries": 71,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\95",
+      "InstanceNumber": "71",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014815"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "1c5ee853-4501-4f50-84ad-902818773fea",
+    "ID": "3f269a29-5276188a-d2d378f1-41a36dfb-5621a1a0",
+    "IndexInSeries": 67,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\97",
+      "InstanceNumber": "67",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014811"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "760e0039-1954-4733-acc9-80e7ff44c23d",
+    "ID": "6322f6f3-98756e57-ae4e8f3d-e714bf21-00284e52",
+    "IndexInSeries": 2,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\129.5",
+      "InstanceNumber": "2",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014746"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "475dce89-2ce2-4681-9b3f-4687d01e0145",
+    "ID": "5c829525-a69a82f2-2de26831-5348c4e4-fc395c64",
+    "IndexInSeries": 82,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\89.5",
+      "InstanceNumber": "82",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014826"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "750a94e2-8606-4d4c-a169-3feafc6a1d1b",
+    "ID": "b4ee4eae-cfad4318-6441b2f3-af995039-89035aaa",
+    "IndexInSeries": 158,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\51.5",
+      "InstanceNumber": "158",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014902"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "c2cccd44-9998-4ba1-ba24-5d07ad2d2714",
+    "ID": "58f70ebf-d8385f62-77232be2-6f0be5ec-f28a802c",
+    "IndexInSeries": 75,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\93",
+      "InstanceNumber": "75",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014819"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "18e36fee-3bfd-45a5-8310-6eea6f9b529a",
+    "ID": "c3e1ce16-4730e36c-f3cfaffe-3edc7cc6-a095bc8c",
+    "IndexInSeries": 1,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\130",
+      "InstanceNumber": "1",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014745"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "8d726fbb-c706-478a-84b8-140fc4d34ce4",
+    "ID": "5e16a502-a744c8e5-f0989441-a1fc8ff2-4a8ae272",
+    "IndexInSeries": 110,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\75.5",
+      "InstanceNumber": "110",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014854"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "b4b14b35-5dac-491f-9738-f00a532d4ad2",
+    "ID": "a22b2616-6dfb1b90-12e0d375-c617cf7f-bf1eebaf",
+    "IndexInSeries": 49,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\106",
+      "InstanceNumber": "49",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014793"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "5931d104-cfd6-4c8e-9033-db4b75cfb234",
+    "ID": "9ad01692-a0542af9-726fc094-d521e519-b52da63d",
+    "IndexInSeries": 132,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\64.5",
+      "InstanceNumber": "132",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014876"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "76539edb-cdbf-4be7-81e9-086df0b7f820",
+    "ID": "fab5ed47-0ab40da5-0a0fe7ea-174e9a7d-5ae6c6a1",
+    "IndexInSeries": 72,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\94.5",
+      "InstanceNumber": "72",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014816"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "b1ae2eae-1cb3-49ca-9f2f-fabe0a875f43",
+    "ID": "d636f29c-9851e205-ae3bdb00-553dc23b-31e3bee4",
+    "IndexInSeries": 140,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\60.5",
+      "InstanceNumber": "140",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014884"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "b0d363c6-9f62-4b72-ae11-7aa6e698c8d3",
+    "ID": "daceb625-aff7120e-37c5a6f1-642ca9ef-63a1b27e",
+    "IndexInSeries": 79,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\91",
+      "InstanceNumber": "79",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014823"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "5b79d658-16aa-4b61-8c5d-48eb63e4a0f7",
+    "ID": "a8ff8541-82501f51-7699612a-07bbf62d-0b65d1a1",
+    "IndexInSeries": 70,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\95.5",
+      "InstanceNumber": "70",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014814"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "e0e7c4e0-a9cc-4092-8f67-c134382ac902",
+    "ID": "8fe497fe-1369caf1-58037e97-f81c4a84-5c14c0e3",
+    "IndexInSeries": 92,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\84.5",
+      "InstanceNumber": "92",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014836"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "06e30968-9911-4304-8bf7-c8ca8fe30635",
+    "ID": "d80bcb25-efea5904-9379876b-df224d31-d3a99275",
+    "IndexInSeries": 63,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\99",
+      "InstanceNumber": "63",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014807"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "52bd9db0-218f-44c1-8300-c6442ae1c026",
+    "ID": "75b19ec3-f2fb2df5-fe1cc715-016c62a1-e1971a00",
+    "IndexInSeries": 157,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\52",
+      "InstanceNumber": "157",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014901"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "8fe80570-8bae-4261-a379-0bf005fe76d2",
+    "ID": "a07cb287-45bc7475-f2455a5c-fb9457b4-8cf0ce49",
+    "IndexInSeries": 35,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\113",
+      "InstanceNumber": "35",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014779"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "efa4c6a1-cb6e-46a4-9feb-51f897db1770",
+    "ID": "6d914515-4981e3f6-6fc50d40-ca327665-c1ab3631",
+    "IndexInSeries": 147,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\57",
+      "InstanceNumber": "147",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014891"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "9f10193c-8b6f-4ea3-ab4a-f25abd14e9ea",
+    "ID": "d117d887-7e2dd7eb-aa2b9e5f-a29f5b00-f2ef6e20",
+    "IndexInSeries": 142,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\59.5",
+      "InstanceNumber": "142",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014886"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "51ae516a-ccaa-4073-881d-b84b0531136b",
+    "ID": "caa9bb73-836d0e4c-c2ea9747-e4c12399-bac99a5b",
+    "IndexInSeries": 162,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\49.5",
+      "InstanceNumber": "162",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014906"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "4fcd47d2-f87e-41dd-9160-b1c6997389e7",
+    "ID": "466ca2c1-467c162d-8192622d-dfbd9ab4-b603635b",
+    "IndexInSeries": 9,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\126",
+      "InstanceNumber": "9",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014753"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "11d6247a-8f95-4898-b056-4dcfa2415273",
+    "ID": "a4e31ec0-c2497de5-82f1f28c-b5621419-5a1d2c42",
+    "IndexInSeries": 111,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\75",
+      "InstanceNumber": "111",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014855"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "66949b37-7d49-4dd6-bdf3-b20b139be764",
+    "ID": "630056d3-d99f2365-db8022df-49ba882c-e014809f",
+    "IndexInSeries": 54,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\103.5",
+      "InstanceNumber": "54",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014798"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "30de5dfa-f14d-4752-a897-165bcb347031",
+    "ID": "b7c474b5-664d429c-e7b9072b-5a2afef7-ac57b40e",
+    "IndexInSeries": 80,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\90.5",
+      "InstanceNumber": "80",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014824"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "53c72c6e-fa2d-4ef7-97fc-93e6c145ec8d",
+    "ID": "8e34a288-c07b0c62-95cbea23-bce146ac-0e443ac4",
+    "IndexInSeries": 91,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\85",
+      "InstanceNumber": "91",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014835"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "5be113d2-46cc-4ea1-8120-e89d7547b5cf",
+    "ID": "860ac0a4-c1bd2d3c-6a199c25-ff50eae6-794c304d",
+    "IndexInSeries": 31,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\115",
+      "InstanceNumber": "31",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014775"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "3e1e48c8-85e1-4105-b4ef-8a8720895e63",
+    "ID": "a2b88422-c8df49f9-4fa8e430-97f1b67e-71289463",
+    "IndexInSeries": 126,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\67.5",
+      "InstanceNumber": "126",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014870"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "f00eb9cd-74f9-4a49-a22b-7214680014f1",
+    "ID": "fe57b6dd-7e520a8b-0e036226-e9a528eb-59a91ac5",
+    "IndexInSeries": 18,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\121.5",
+      "InstanceNumber": "18",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014762"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "0bac325d-36da-4ee1-a171-7db62cce36b9",
+    "ID": "201b7d55-fd3de9e5-6be8d149-20ba8730-79e61332",
+    "IndexInSeries": 37,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\112",
+      "InstanceNumber": "37",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014781"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "8cfa852d-8a76-471b-b1af-77565ab582d3",
+    "ID": "4be01473-5e02cab7-4ea8ee66-1dd0e2b2-370308a8",
+    "IndexInSeries": 65,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\98",
+      "InstanceNumber": "65",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014809"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "8804444a-2617-4d65-b7ef-fb889f365216",
+    "ID": "d904f9cd-6e510aff-2fabadaa-b90943fa-e59122e0",
+    "IndexInSeries": 148,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\56.5",
+      "InstanceNumber": "148",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014892"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "be2bcf1d-dc28-473c-8b37-a63b2b145e38",
+    "ID": "f24c3599-10ff2618-b7732c3f-52d0c4f0-ffc87db5",
+    "IndexInSeries": 117,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\72",
+      "InstanceNumber": "117",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014861"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "b744e95b-cd32-4adb-9ea2-9df5902a07de",
+    "ID": "cd48e62a-59bbdc31-97b584ac-cec6b24b-2aed33d4",
+    "IndexInSeries": 47,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\107",
+      "InstanceNumber": "47",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014791"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "49519305-d9a3-4a8c-b867-5b7a84926482",
+    "ID": "fc916b44-6d3bfe36-381955b5-bf1bc015-4c38b7c2",
+    "IndexInSeries": 149,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\56",
+      "InstanceNumber": "149",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014893"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "1ff68b3d-0dfa-4caa-8035-18395197f108",
+    "ID": "e3dfd688-80e4743a-29c45f90-371ec4a4-04d18ae5",
+    "IndexInSeries": 137,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\62",
+      "InstanceNumber": "137",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014881"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "53b15aad-e96f-4db5-8a43-def447a78c2f",
+    "ID": "e0a1e1ea-c679bb2a-9be3e0d8-3b4031fa-83c1e1c4",
+    "IndexInSeries": 27,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\117",
+      "InstanceNumber": "27",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014771"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "9e3e540d-46e8-4573-93ce-c7e33c034190",
+    "ID": "92270fd6-19454b44-6ad77fd8-003c563d-d252cc2e",
+    "IndexInSeries": 30,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\115.5",
+      "InstanceNumber": "30",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014774"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "3013fb34-8ae5-46ff-94b7-1e6d5b4e23e4",
+    "ID": "0df992f4-0a841d5c-aeb8cdda-9c1a0573-dbd49c3f",
+    "IndexInSeries": 138,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\61.5",
+      "InstanceNumber": "138",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014882"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "14d33a06-2c42-4452-bccd-aeb5d2392c8e",
+    "ID": "f7c42473-2461a7da-5d75a2c6-cb79c764-0e182406",
+    "IndexInSeries": 103,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\79",
+      "InstanceNumber": "103",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014847"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "757d373f-e6a6-43a6-ae06-eb534b7ac0b8",
+    "ID": "8de7f8ce-56dd2622-55ff7e02-08b67d7b-f7330657",
+    "IndexInSeries": 73,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\94",
+      "InstanceNumber": "73",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014817"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "b78504f8-f5e6-474b-aaa4-600d58d751e3",
+    "ID": "bede4afd-93493a09-6fd262c0-e029e4d3-c9f6e272",
+    "IndexInSeries": 164,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\48.5",
+      "InstanceNumber": "164",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014908"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "db0959eb-55d8-4867-9d65-5bba464feec7",
+    "ID": "5456bee3-c99c7e58-7dc84f61-4de85d75-0053f5ee",
+    "IndexInSeries": 155,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\53",
+      "InstanceNumber": "155",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014899"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "0ea54438-d889-4bfe-8e11-9bb6b9399f39",
+    "ID": "dd7395f8-3c18eaae-0a573b46-e8babb98-cdb82b5b",
+    "IndexInSeries": 151,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\55",
+      "InstanceNumber": "151",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014895"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "6e1eb09e-d173-478f-9b08-f8eadb6866b0",
+    "ID": "7ab8f715-6905408b-b0fc5aca-3937b4fd-d82e32c2",
+    "IndexInSeries": 154,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\53.5",
+      "InstanceNumber": "154",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014898"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "e6ac8402-d9a0-439d-b145-536f2c7ed6fc",
+    "ID": "481cca6a-84142b2c-007e5d8c-22f60d64-76df0892",
+    "IndexInSeries": 7,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\127",
+      "InstanceNumber": "7",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014751"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "26a80723-bd62-4287-ba8e-4146c93b050b",
+    "ID": "830ce0f0-88e6e408-37a73893-2ff56e44-55eef547",
+    "IndexInSeries": 160,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\50.5",
+      "InstanceNumber": "160",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014904"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "9dd967ec-ee5b-4bb6-85cf-38293edd2c0b",
+    "ID": "da3a923f-2c94cb98-544842c4-02092474-26c8cbc9",
+    "IndexInSeries": 10,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\125.5",
+      "InstanceNumber": "10",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014754"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "dbd727f2-89ad-4e32-8ab0-907f705ead45",
+    "ID": "fc1498fa-4cedf508-64b41907-d2d10eff-63b07c01",
+    "IndexInSeries": 159,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\51",
+      "InstanceNumber": "159",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014903"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "ab753522-d7d3-4226-b8c9-700b88eef6d3",
+    "ID": "7ca06aee-5cb2cc11-d4d71cfc-b6cd777b-83b57611",
+    "IndexInSeries": 165,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\48",
+      "InstanceNumber": "165",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014909"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "0e866200-f931-4411-b3d1-a0d51b07acf2",
+    "ID": "b455c52e-efee95b7-57abc887-55d36c0f-899ae686",
+    "IndexInSeries": 56,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\102.5",
+      "InstanceNumber": "56",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014800"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "43da58aa-6c46-4866-8d66-e797ea61b744",
+    "ID": "4439387a-ea593830-8cdfa3f4-28940b84-3ef2ad87",
+    "IndexInSeries": 26,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\117.5",
+      "InstanceNumber": "26",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014770"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "952c50e0-3030-4d7d-bc9c-30dc1cc8e5b1",
+    "ID": "74582f54-2d7c806e-3537f473-ba3919c3-679d805f",
+    "IndexInSeries": 86,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\87.5",
+      "InstanceNumber": "86",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014830"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "f4cfbea9-9936-4b61-9ad0-630ae9c3dc85",
+    "ID": "6619fec6-ce9fe366-6dce1fd8-f519933d-eb6a0d62",
+    "IndexInSeries": 69,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\96",
+      "InstanceNumber": "69",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014813"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "00205e82-7520-407b-b036-a5b28d5a5c75",
+    "ID": "04a30982-835a4b0a-3082b997-060f01f5-071a0f8d",
+    "IndexInSeries": 16,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\122.5",
+      "InstanceNumber": "16",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014760"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "9328f043-991e-42e2-a337-045a90ebfe8d",
+    "ID": "59daf0a8-523e1f23-945b1e42-4daaf602-a6093c2d",
+    "IndexInSeries": 38,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\111.5",
+      "InstanceNumber": "38",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014782"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "9ebd0932-bc98-4224-a1a6-f84d38d1acb3",
+    "ID": "6df6ffd1-2a464292-0d6692ad-7c39e210-a0e5cfed",
+    "IndexInSeries": 105,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\78",
+      "InstanceNumber": "105",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014849"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "69161d78-b253-4c45-9438-bb401abf3508",
+    "ID": "15d061dd-eeb57527-d43a989b-e2578677-63f2c6f5",
+    "IndexInSeries": 68,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\96.5",
+      "InstanceNumber": "68",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014812"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "c5f17fc6-2963-4a47-9711-f9f3068153fc",
+    "ID": "fdc228e0-cc13603d-f3b77cab-6ca49c29-5d4dd91f",
+    "IndexInSeries": 57,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\102",
+      "InstanceNumber": "57",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014801"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "2772c9a2-a400-493d-811e-d7638fa8e028",
+    "ID": "35180f89-cdf4f55b-b9ad0615-b9a23df7-956fb1d3",
+    "IndexInSeries": 14,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\123.5",
+      "InstanceNumber": "14",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014758"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "708785ee-7cc9-4c05-9d43-0524204d6efa",
+    "ID": "5ad3589a-f7bdb7b0-2f892987-df409ae6-d998d95a",
+    "IndexInSeries": 84,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\88.5",
+      "InstanceNumber": "84",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014828"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "5244ea2a-421f-4648-b710-00a137db9668",
+    "ID": "463832c0-b6d7a8e8-2528e011-f0b47493-e1daf069",
+    "IndexInSeries": 143,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\59",
+      "InstanceNumber": "143",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014887"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "276453ce-7790-4b36-8547-550330175651",
+    "ID": "011ead8d-f2508edd-da315604-80b002df-e678b796",
+    "IndexInSeries": 96,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\82.5",
+      "InstanceNumber": "96",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014840"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "3f46a6c6-ad7d-412f-91f8-a0d446729b5a",
+    "ID": "c1d779ec-31afa1e3-ea0741d8-18efc1ad-b1e77f21",
+    "IndexInSeries": 166,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\47.5",
+      "InstanceNumber": "166",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014910"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "d6416618-a511-4302-b532-451dcd5715fc",
+    "ID": "c6ce208f-e9d1447d-84fd8575-b48fac0e-7cd6b065",
+    "IndexInSeries": 122,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\69.5",
+      "InstanceNumber": "122",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014866"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "43b043e0-f5ef-473f-bdbe-5c6941b6c1e9",
+    "ID": "260bb7b7-67b629cb-0e3228fd-3a53d5dd-e35e3f73",
+    "IndexInSeries": 32,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\114.5",
+      "InstanceNumber": "32",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014776"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "3099b98a-488d-40cb-a804-765ea44c0b96",
+    "ID": "792cc5dc-2643c4f6-5b42a630-d91a1516-ae0b21f3",
+    "IndexInSeries": 59,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\101",
+      "InstanceNumber": "59",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014803"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "d53f0489-4bd2-434c-9d3e-81334f42dd23",
+    "ID": "6eeb2475-5b5ba0a3-d39fb207-106beb1e-be3df75a",
+    "IndexInSeries": 124,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\68.5",
+      "InstanceNumber": "124",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014868"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "125e834f-7bd8-4b51-873c-d067a5db24e4",
+    "ID": "b9591e2d-69cae27e-649f0da5-53274e29-b534bdc5",
+    "IndexInSeries": 15,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\123",
+      "InstanceNumber": "15",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014759"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "e1677e34-0ef6-44d7-8c20-4b835abea6a2",
+    "ID": "bced765f-486e792f-0816ec2b-1a4ecf14-48b22aec",
+    "IndexInSeries": 77,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\92",
+      "InstanceNumber": "77",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014821"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "b6719d29-b2af-4456-8d80-acb6e94bd89d",
+    "ID": "135cca6f-4c099fdd-afc99251-f58a819b-5a0222eb",
+    "IndexInSeries": 161,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\50",
+      "InstanceNumber": "161",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014905"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "c3dede19-154e-43a6-ab05-59ea3a59b301",
+    "ID": "bd7138f5-2790b4d2-e03b64ae-c0ad7583-108a6108",
+    "IndexInSeries": 78,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\91.5",
+      "InstanceNumber": "78",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014822"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "4ae9397b-7d81-479a-9ac9-d27430855047",
+    "ID": "51ba5f3e-214af2d4-6ae2d89c-f038de5c-8af03835",
+    "IndexInSeries": 83,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\89",
+      "InstanceNumber": "83",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014827"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "3702fb18-780c-4ae7-b3da-19d74e2e6cb1",
+    "ID": "b1f0ec67-608b22d4-b28035e5-95d13aeb-2912bed1",
+    "IndexInSeries": 118,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\71.5",
+      "InstanceNumber": "118",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014862"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "84cc9976-4424-4539-89c6-0e6ef9b729ff",
+    "ID": "cafccb51-724bdfe4-b7a97578-4149ebd7-04498d23",
+    "IndexInSeries": 128,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\66.5",
+      "InstanceNumber": "128",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014872"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "ddf1187c-39da-4bc1-851e-59258d510002",
+    "ID": "37f436ea-4a7c65ed-86e2557b-9e3c1d40-d92dd9d4",
+    "IndexInSeries": 141,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\60",
+      "InstanceNumber": "141",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014885"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "a74ea0d3-3a90-43d4-8bf4-5c8170f9ef20",
+    "ID": "c869010f-a94469c1-e89d2b3e-7a7d9820-ad65e3c0",
+    "IndexInSeries": 74,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\93.5",
+      "InstanceNumber": "74",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014818"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "fa515060-cda3-44cd-9ed5-931b2644c0ef",
+    "ID": "afa03c61-ce6f9925-5ba190cc-45ddb4a1-672c12ee",
+    "IndexInSeries": 23,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\119",
+      "InstanceNumber": "23",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014767"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "4a51bcf2-4540-440b-ba08-66a2da48e9cb",
+    "ID": "a5fedd71-0a3a1e1e-76f5a878-9b7da2f5-5130975e",
+    "IndexInSeries": 144,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\58.5",
+      "InstanceNumber": "144",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014888"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "bee179ce-37bd-4b6b-b653-fe823b5ceaad",
+    "ID": "aebe6e80-fe47f20f-8dbaed7d-713bb124-78825f09",
+    "IndexInSeries": 97,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\82",
+      "InstanceNumber": "97",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014841"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "7c28a814-68b4-4696-bc95-08f1df10cc49",
+    "ID": "fe9d34ea-50e99589-06d88b9a-19e664ad-29545589",
+    "IndexInSeries": 106,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\77.5",
+      "InstanceNumber": "106",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014850"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "0cd658a1-6cf7-4370-9acb-8b62817a770a",
+    "ID": "f63dec85-0bfb462c-abc6fe3c-a3d65966-a1114e9d",
+    "IndexInSeries": 41,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\110",
+      "InstanceNumber": "41",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014785"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "bbe906f1-eeff-4f46-b508-c19063d509e8",
+    "ID": "30f18dad-dd641be0-c2ce20ac-8df5ab47-25d9ac72",
+    "IndexInSeries": 48,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\106.5",
+      "InstanceNumber": "48",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014792"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "33069be0-e975-44aa-819f-9adde557e1a3",
+    "ID": "544a3b17-ce951254-d668aa9c-ddf0674c-c1fb7a2d",
+    "IndexInSeries": 20,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\120.5",
+      "InstanceNumber": "20",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014764"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "9cc9c597-6817-48f1-97c3-c8f794e9a2bf",
+    "ID": "17c6b264-54464c96-04625155-1331b91d-94056358",
+    "IndexInSeries": 123,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\69",
+      "InstanceNumber": "123",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014867"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "dbcf2425-168e-42b4-adf9-165a87998c2e",
+    "ID": "76ba8bab-04a8d0e6-68653288-cec7ae62-f9dcd7fd",
+    "IndexInSeries": 60,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\100.5",
+      "InstanceNumber": "60",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014804"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "846f7d96-0778-4c63-89cd-cbe6fdf84e3f",
+    "ID": "c2ca2a9a-2527c946-d48a6b50-4fa92498-cce3f70c",
+    "IndexInSeries": 36,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\112.5",
+      "InstanceNumber": "36",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014780"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "87323589-208b-4bcc-ba68-8257608a50db",
+    "ID": "76082c1b-f686317f-10812b60-b39eeec9-b1fff347",
+    "IndexInSeries": 90,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\85.5",
+      "InstanceNumber": "90",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014834"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "50b81769-b5fc-460d-a58a-048afdf9ef05",
+    "ID": "4c759557-c60ece35-47ffd554-9bf3ce97-586a70ef",
+    "IndexInSeries": 40,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\110.5",
+      "InstanceNumber": "40",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014784"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "6c5d087c-54ec-4784-89f7-97aa104052d7",
+    "ID": "bcd60348-0678f4be-913a971f-aac42cb7-59a70962",
+    "IndexInSeries": 150,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\55.5",
+      "InstanceNumber": "150",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014894"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "173400b7-cc64-42e1-9b10-58d2371717ae",
+    "ID": "95da7e61-ed3b2c29-cdf40ccd-2179ef77-65784d4d",
+    "IndexInSeries": 29,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\116",
+      "InstanceNumber": "29",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014773"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "1f54952f-a0eb-4c99-8db3-fa00d1ed99d1",
+    "ID": "b9dab9e3-15f1cfdd-cd4ad939-4c5773a1-aaacf2b8",
+    "IndexInSeries": 11,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\125",
+      "InstanceNumber": "11",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014755"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "39be7435-904d-4333-a032-5c8155635b97",
+    "ID": "792409cc-6943e472-65123f4a-b18520da-56db9e95",
+    "IndexInSeries": 95,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\83",
+      "InstanceNumber": "95",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014839"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "53f5f84f-cfc6-4fab-b8bb-0e3f0a8774b1",
+    "ID": "1e358ff4-4f0745bf-b6332dea-20dafc47-c7b92a1f",
+    "IndexInSeries": 17,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\122",
+      "InstanceNumber": "17",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014761"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "f94a6099-de34-44a0-8630-8a7d086e546f",
+    "ID": "780a5157-ce333f5a-790ab283-0ec3c37b-983fca76",
+    "IndexInSeries": 58,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\101.5",
+      "InstanceNumber": "58",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014802"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "81ec1bc4-f831-4f75-b0ae-215e9d4a4fff",
+    "ID": "5f9bf109-259c5162-7b8a7bd6-66236ee9-f14d186e",
+    "IndexInSeries": 156,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\52.5",
+      "InstanceNumber": "156",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014900"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "dc5c5a7a-8436-4c97-bff5-769eb8d89a2b",
+    "ID": "f394ffa9-0087214f-dfcd72a2-47239d6f-9bbf8722",
+    "IndexInSeries": 85,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\88",
+      "InstanceNumber": "85",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014829"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "d32fa7d4-e843-40f7-92df-9be849b72df1",
+    "ID": "d634b0ec-57acd204-467a20b5-7b5662aa-53e42126",
+    "IndexInSeries": 34,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\113.5",
+      "InstanceNumber": "34",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014778"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "f264a218-4f68-4d68-ab22-45824bf70201",
+    "ID": "13a36df0-0c447f37-0a22a0ae-c1a9aa10-6a0baf00",
+    "IndexInSeries": 163,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\49",
+      "InstanceNumber": "163",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014907"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "da0b0db8-4318-4de4-a10f-7dcd8c564d0a",
+    "ID": "70f8fa82-1b4c1278-4c1df639-508a2025-4cb5695a",
+    "IndexInSeries": 51,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\105",
+      "InstanceNumber": "51",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014795"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "123a1fa0-7baa-4851-9fda-c680a0ed7000",
+    "ID": "db82d3da-9b365780-ec19cb70-fad9b825-817cc7c9",
+    "IndexInSeries": 87,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\87",
+      "InstanceNumber": "87",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014831"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "7904956a-e5ac-4ad1-9691-33610f1c8206",
+    "ID": "e03d5cbd-a698016e-d8efebd8-370820fe-0b4cd3bd",
+    "IndexInSeries": 112,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\74.5",
+      "InstanceNumber": "112",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014856"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "35e11cd1-6910-418d-b18c-3f7b387f8d8d",
+    "ID": "4ce1ab8f-7aae5f04-cb124b8d-0673f3bf-a46c23e8",
+    "IndexInSeries": 25,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\118",
+      "InstanceNumber": "25",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014769"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "36f3b831-a285-4a0c-97c7-ed545a105b40",
+    "ID": "93830811-bbed70a2-0a287db8-8c77a260-7126317a",
+    "IndexInSeries": 109,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\76",
+      "InstanceNumber": "109",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014853"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "842d7500-5919-4147-a513-8d1a8283f9a2",
+    "ID": "a707b609-17b08e9f-e022523d-67f21b38-ec550a7e",
+    "IndexInSeries": 6,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\127.5",
+      "InstanceNumber": "6",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014750"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "a669eb97-b723-4eed-b914-2f751b688161",
+    "ID": "5685572c-1ca09d2d-f169a2f8-2f1bd8ae-0b2fa017",
+    "IndexInSeries": 125,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\68",
+      "InstanceNumber": "125",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014869"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "c3894a8c-f1a0-46a5-a835-b2fc0e2d8818",
+    "ID": "6fb1e8dd-dd144325-5219d0b4-57cac155-ded504b5",
+    "IndexInSeries": 100,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\80.5",
+      "InstanceNumber": "100",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014844"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "e6794392-1a2e-4dc8-9f18-a3c4179d7df2",
+    "ID": "8e17a8b5-736d1b1f-50b552bf-1409202d-8177a6a7",
+    "IndexInSeries": 102,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\79.5",
+      "InstanceNumber": "102",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014846"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "43fcc564-f848-48a3-a7a6-cd9c0d768528",
+    "ID": "eae9fecb-d2e95c5f-cf67794c-39c4af3e-2494ff5d",
+    "IndexInSeries": 129,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\66",
+      "InstanceNumber": "129",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014873"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "5b200f5a-02f4-46ba-b7ae-4cf41ed3bd0a",
+    "ID": "709c437c-0023a921-1e99f6a6-49ad8106-74a40112",
+    "IndexInSeries": 108,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\76.5",
+      "InstanceNumber": "108",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014852"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "2f90aa75-9fe6-442a-af71-d749883ae9a0",
+    "ID": "c7fc201d-173d0fe2-9115f209-3a60769f-fa99d2e8",
+    "IndexInSeries": 52,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\104.5",
+      "InstanceNumber": "52",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014796"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "668f0e16-3b46-4231-9e84-e3f0936400a2",
+    "ID": "87a1749e-23f9c3d3-3b4e1ec5-bf68456f-2de6d549",
+    "IndexInSeries": 45,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\108",
+      "InstanceNumber": "45",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014789"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "767e7fc0-c59d-460f-b56b-cbfbe59f0526",
+    "ID": "3a5fad42-5aa93a41-d90b73fe-f03d386f-8ac8cd10",
+    "IndexInSeries": 121,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\70",
+      "InstanceNumber": "121",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014865"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "e2456564-0eac-4117-9305-e32d74189a00",
+    "ID": "bfdbcd0b-814b1f22-5346359c-1f6dc7e7-c7071756",
+    "IndexInSeries": 115,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\73",
+      "InstanceNumber": "115",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014859"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "ddf9d91f-3cc7-4e63-a458-3d515cac0a85",
+    "ID": "5369484e-6cee662e-bf37d213-38f7e60e-934a9839",
+    "IndexInSeries": 131,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\65",
+      "InstanceNumber": "131",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014875"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "663ae622-1e1f-4fba-8cca-d5bcaad9da98",
+    "ID": "66903974-60cc16bb-79783ec4-63245413-b545b1cd",
+    "IndexInSeries": 135,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\63",
+      "InstanceNumber": "135",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014879"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "450ccf7f-a026-45a4-b9c1-3f11ec4a84b1",
+    "ID": "a6df949f-5e68794e-e7ed1a6a-ff8dae6e-0894b531",
+    "IndexInSeries": 28,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\116.5",
+      "InstanceNumber": "28",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014772"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "897c1279-8b94-492e-a691-61d1caf312f2",
+    "ID": "aef5b501-ff8d75da-95b415bc-98bbd57e-d1a7d843",
+    "IndexInSeries": 136,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\62.5",
+      "InstanceNumber": "136",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014880"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526864,
+    "FileUuid": "699c4844-2006-428f-87bf-892feb1f5939",
+    "ID": "f9d0c08d-2b983dee-99815ab4-635dace3-1facbaf3",
+    "IndexInSeries": 81,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\90",
+      "InstanceNumber": "81",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014825"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "b37b5293-1835-4f3c-a475-d2d192c6bdea",
+    "ID": "fb6879a8-13d68536-549ec39a-83d81753-e01eae4d",
+    "IndexInSeries": 3,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\129",
+      "InstanceNumber": "3",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014747"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "12527a10-f747-40d5-a1e8-22ebdc2536b4",
+    "ID": "58ec2ba0-4521b216-d6e5ac7c-b294fda2-13888354",
+    "IndexInSeries": 119,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\71",
+      "InstanceNumber": "119",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014863"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526868,
+    "FileUuid": "c250287c-0811-416e-bbc9-977a8012cbf9",
+    "ID": "04efd8b9-2ae1f3db-deb0f226-e3267002-6cd8fa3c",
+    "IndexInSeries": 88,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\86.5",
+      "InstanceNumber": "88",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014832"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "fc802a02-507b-4bfb-8b70-5b67ebfba258",
+    "ID": "600b8c53-e3b8c0a3-6ce5bbfc-d875885e-b5ba7479",
+    "IndexInSeries": 113,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\74",
+      "InstanceNumber": "113",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014857"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "950002e7-fab2-44b2-ba2a-8dae8fef826f",
+    "ID": "c100fbdd-2d022660-39eb1121-f39d9286-2a65a4ea",
+    "IndexInSeries": 22,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\119.5",
+      "InstanceNumber": "22",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014766"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "4f11473f-946c-4b7b-948d-6f20fd11f9a5",
+    "ID": "1040d983-506dbd00-c943a014-cc0e353e-96016ec2",
+    "IndexInSeries": 19,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\121",
+      "InstanceNumber": "19",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014763"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "d3cdf057-6532-43fc-9566-dcfe7950c0af",
+    "ID": "2efdfffb-bf739fea-57c934ff-a54afb88-1c67ff6d",
+    "IndexInSeries": 146,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\57.5",
+      "InstanceNumber": "146",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014890"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "af8dd416-c8df-4cc8-8359-7a774ae575e4",
+    "ID": "ae03f8f8-7a426e00-95e07bcf-c725c36e-b277198c",
+    "IndexInSeries": 53,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\104",
+      "InstanceNumber": "53",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014797"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "4e7c277b-4c6a-45d9-8a93-03ff8e71a06c",
+    "ID": "719d58b1-2a259486-7cc5919d-68a2bd30-da2cd290",
+    "IndexInSeries": 61,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\100",
+      "InstanceNumber": "61",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014805"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "67594359-e703-468b-a1e6-44b733e2b947",
+    "ID": "106bb0a3-efe40811-213d48ec-83ac0a70-061f4a6b",
+    "IndexInSeries": 116,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\72.5",
+      "InstanceNumber": "116",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014860"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526870,
+    "FileUuid": "79a0ad65-8ee5-455d-b9ab-56d67625a594",
+    "ID": "4fecddf1-518346e4-4f30176b-c453b3d8-65899230",
+    "IndexInSeries": 114,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\73.5",
+      "InstanceNumber": "114",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014858"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "d087d2fe-380d-4d34-bc8e-8c93c8d1ea9a",
+    "ID": "70878c17-df205531-60c4700e-895e6b27-b730667d",
+    "IndexInSeries": 33,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\114",
+      "InstanceNumber": "33",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014777"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  },
+  {
+    "FileSize": 526866,
+    "FileUuid": "737d73f7-4412-4322-be0e-97bcb44fd92e",
+    "ID": "a33ff8bd-6218f514-4b1f1e82-57fcd674-0ac856b5",
+    "IndexInSeries": 101,
+    "MainDicomTags": {
+      "AcquisitionNumber": "3",
+      "ImagePositionPatient": "-96.3193359375\\-249.3193359375\\80",
+      "InstanceNumber": "101",
+      "SOPInstanceUID": "1.3.12.2.1107.5.1.4.54693.30000006053107175587500014845"
+    },
+    "ParentSeries": "52cc572c-3ee31930-c4b6d5e7-16c786dc-97bc209b",
+    "Type": "Instance"
+  }
+]

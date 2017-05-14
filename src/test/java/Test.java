@@ -1,8 +1,8 @@
 import hr.fer.zari.OrthancException;
-import hr.fer.zari.models.*;
 import hr.fer.zari.RestClient;
+import hr.fer.zari.models.*;
 
-import java.io.*;
+import java.io.IOException;
 import java.util.List;
 
 /**
