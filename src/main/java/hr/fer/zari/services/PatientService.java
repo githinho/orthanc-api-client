@@ -50,4 +50,9 @@ public class PatientService extends BaseService{
         Call<Map<String, Header>> call = service.getPatientModule(patientId);
         return checkResponse(call);
     }
+
+    public Map<String, Header> getPatientSharedTags(String patientId) throws IOException, OrthancException {
+        Call<Map<String, Header>> call = service.getPatientSharedTags(patientId);
+        return checkResponse(call);
+    }
 }

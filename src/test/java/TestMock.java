@@ -149,6 +149,19 @@ public class TestMock {
         }
     }
 
+    @org.junit.Test
+    public void testPatientSharedTags() throws IOException {
+        RestClient client = MockClientConstructor.getPatientSharedTags();
+        try {
+            Map<String, Header> module = client.getPatientService().getPatientSharedTags("1");
+            Header header = module.get("0008,0005");
+            assertEquals(header.getType(), "String");
+            assertEquals(header.getName(), "SpecificCharacterSet");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
     private void handleOrthancException(OrthancException e) {
         e.printStackTrace();
         fail(e.getMessage());

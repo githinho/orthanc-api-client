@@ -1,0 +1,122 @@
+{
+  "0008,0005": {
+    "Name": "SpecificCharacterSet",
+    "Type": "String",
+    "Value": "ISO_IR 100"
+  },
+  "0008,0020": {
+    "Name": "StudyDate",
+    "Type": "String",
+    "Value": "20040721"
+  },
+  "0008,0021": {
+    "Name": "SeriesDate",
+    "Type": "String",
+    "Value": "20040701"
+  },
+  "0008,0022": {
+    "Name": "AcquisitionDate",
+    "Type": "String",
+    "Value": "20040721"
+  },
+  "0008,0023": {
+    "Name": "ContentDate",
+    "Type": "String",
+    "Value": "20040721"
+  },
+  "0008,0030": {
+    "Name": "StudyTime",
+    "Type": "String",
+    "Value": "100851.980000"
+  },
+  "0008,0031": {
+    "Name": "SeriesTime",
+    "Type": "String",
+    "Value": "120000.000000"
+  },
+  "0008,0050": {
+    "Name": "AccessionNumber",
+    "Type": "String",
+    "Value": "1909715"
+  },
+  "0008,0090": {
+    "Name": "ReferringPhysicianName",
+    "Type": "String",
+    "Value": "LEE^PETER"
+  },
+  "0008,1030": {
+    "Name": "StudyDescription",
+    "Type": "String",
+    "Value": "Thorax^1WB_PETCT"
+  },
+  "0010,0010": {
+    "Name": "PatientName",
+    "Type": "String",
+    "Value": "ASSURANCETOURIX"
+  },
+  "0010,1010": {
+    "Name": "PatientAge",
+    "Type": "String",
+    "Value": "000Y"
+  },
+  "0010,1030": {
+    "Name": "PatientWeight",
+    "Type": "String",
+    "Value": "0"
+  },
+  "0018,5100": {
+    "Name": "PatientPosition",
+    "Type": "String",
+    "Value": "HFS"
+  },
+  "0020,000d": {
+    "Name": "StudyInstanceUID",
+    "Type": "String",
+    "Value": "1.2.840.113745.101000.1008000.38179.6792.6324567"
+  },
+  "0020,0010": {
+    "Name": "StudyID",
+    "Type": "String",
+    "Value": "4123274"
+  },
+  "0020,0037": {
+    "Name": "ImageOrientationPatient",
+    "Type": "String",
+    "Value": "1\\0\\0\\0\\1\\0"
+  },
+  "0028,0002": {
+    "Name": "SamplesPerPixel",
+    "Type": "String",
+    "Value": "1"
+  },
+  "0028,0004": {
+    "Name": "PhotometricInterpretation",
+    "Type": "String",
+    "Value": "MONOCHROME2"
+  },
+  "0028,0100": {
+    "Name": "BitsAllocated",
+    "Type": "String",
+    "Value": "16"
+  },
+  "0028,0103": {
+    "Name": "PixelRepresentation",
+    "Type": "String",
+    "Value": "0"
+  },
+  "0032,1032": {
+    "Name": "RequestingPhysician",
+    "Type": "String",
+    "Value": "LEE^PETER^^^M.D."
+  },
+  "0032,1060": {
+    "Name": "RequestedProcedureDescription",
+    "Type": "String",
+    "Value": "PCT PET WHOLE BODY"
+  },
+  "0040,1001": {
+    "Name": "RequestedProcedureID",
+    "Type": "String",
+    "Value": "1909715"
+  }
+}
