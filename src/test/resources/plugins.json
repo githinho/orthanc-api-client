@@ -1,0 +1,10 @@
+[
+  "explorer.js",
+  "dicom-web",
+  "postgresql-index",
+  "postgresql-storage",
+  "serve-folders",
+  "web-viewer",
+  "worklists",
+  "wsi"
+]

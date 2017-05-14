@@ -180,6 +180,17 @@ public class TestMock {
         }
     }
 
+    @org.junit.Test
+    public void testPlugins() throws IOException {
+        RestClient client = MockClientConstructor.getPlugins();
+        try {
+            List<String> plugins = client.getSystemService().getPlugins();
+            assertEquals(plugins.size(), 8);
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
     private void handleOrthancException(OrthancException e) {
         e.printStackTrace();
         fail(e.getMessage());
