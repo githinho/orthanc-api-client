@@ -1,6 +1,5 @@
 package hr.fer.zari;
 
-import com.sun.org.apache.xml.internal.security.utils.Base64;
 import hr.fer.zari.services.*;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
@@ -10,6 +9,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+import javax.xml.bind.DatatypeConverter;
 import java.io.IOException;
 
 /**
@@ -48,18 +48,16 @@ public class RestClient {
 
     private Interceptor createInterceptor(String username, String password) {
         final String credentials = username + ":" + password;
-        final String basic = "Basic " + Base64.encode(credentials.getBytes());
+        final String basic = "Basic " + DatatypeConverter.printBase64Binary(credentials.getBytes());
 
         return new Interceptor() {
             @Override
             public Response intercept(Interceptor.Chain chain) throws IOException {
                 Request original = chain.request();
-
                 Request.Builder requestBuilder = original.newBuilder()
                         .header("Authorization", basic)
                         .header("Accept", "application/json")
                         .method(original.method(), original.body());
-
                 Request request = requestBuilder.build();
                 return chain.proceed(request);
             }
