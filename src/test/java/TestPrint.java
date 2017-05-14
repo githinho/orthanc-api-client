@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by eugen on 02/12/2016.
  */
-public class Test {
+public class TestPrint {
 
     private static final String API_BASE_URL = "http://demo.orthanc-server.com";
     private static final String USERNAME = "";

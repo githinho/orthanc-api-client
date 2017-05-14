@@ -1,3 +1,5 @@
+package services;
+
 import hr.fer.zari.RestClient;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;

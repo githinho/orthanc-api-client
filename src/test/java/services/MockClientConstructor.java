@@ -1,3 +1,5 @@
+package services;
+
 import hr.fer.zari.RestClient;
 
 import java.io.IOException;
