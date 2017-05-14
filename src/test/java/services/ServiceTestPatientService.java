@@ -33,7 +33,7 @@ public class ServiceTestPatientService extends BaseServiceTest {
         RestClient client = MockClientConstructor.getPatient();
         try {
             Patient patient = client.getPatientService().getPatient("1");
-            assertEquals(patient.getID(), "da39a3ee-5e6b4b0d-3255bfef-95601890-afd80709");
+            checkPatient(patient);
         } catch (OrthancException e) {
             handleOrthancException(e);
         }

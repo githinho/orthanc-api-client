@@ -3,6 +3,7 @@ package hr.fer.zari.services;
 import hr.fer.zari.OrthancException;
 import hr.fer.zari.OrthancService;
 import hr.fer.zari.models.Header;
+import hr.fer.zari.models.Patient;
 import hr.fer.zari.models.Series;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
@@ -42,6 +43,11 @@ public class SeriesService extends BaseService {
 
     public Map<String, Header> getSeriesModule(String seriesId) throws IOException, OrthancException {
         Call<Map<String, Header>> call = service.getSeriesModule(seriesId);
+        return checkResponse(call);
+    }
+
+    public Patient getSeriesPatient(String seriesId) throws IOException, OrthancException {
+        Call<Patient> call = service.getSeriesPatient(seriesId);
         return checkResponse(call);
     }
 
