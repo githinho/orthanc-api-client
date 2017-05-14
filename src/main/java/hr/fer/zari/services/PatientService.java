@@ -4,6 +4,7 @@ import hr.fer.zari.OrthancException;
 import hr.fer.zari.OrthancService;
 import hr.fer.zari.models.Header;
 import hr.fer.zari.models.Patient;
+import hr.fer.zari.models.Statistics.PatientStatistics;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 
@@ -53,6 +54,11 @@ public class PatientService extends BaseService{
 
     public Map<String, Header> getPatientSharedTags(String patientId) throws IOException, OrthancException {
         Call<Map<String, Header>> call = service.getPatientSharedTags(patientId);
+        return checkResponse(call);
+    }
+
+    public PatientStatistics getPatientStatistics(String patientId) throws IOException, OrthancException {
+        Call<PatientStatistics> call = service.getPatientStatistics(patientId);
         return checkResponse(call);
     }
 }

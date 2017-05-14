@@ -1,6 +1,7 @@
 import hr.fer.zari.OrthancException;
 import hr.fer.zari.RestClient;
 import hr.fer.zari.models.*;
+import hr.fer.zari.models.Statistics.PatientStatistics;
 
 import java.io.IOException;
 import java.util.List;
@@ -157,6 +158,23 @@ public class TestMock {
             Header header = module.get("0008,0005");
             assertEquals(header.getType(), "String");
             assertEquals(header.getName(), "SpecificCharacterSet");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
+    @org.junit.Test
+    public void testPatientStatistics() throws IOException {
+        RestClient client = MockClientConstructor.getPatientStatistics();
+        try {
+            PatientStatistics statistics = client.getPatientService().getPatientStatistics("0");
+            assertEquals(statistics.getDiskSize(), "144270403");
+            assertEquals(statistics.getCountStudies(), 1);
+            assertEquals(statistics.getDiskSizeMB(), 137);
+            assertEquals(statistics.getCountInstances(), 680);
+            assertEquals(statistics.getCountSeries(), 3);
+            assertEquals(statistics.getUncompressedSize(), "144270403");
+            assertEquals(statistics.getUncompressedSizeMB(), 137);
         } catch (OrthancException e) {
             handleOrthancException(e);
         }
