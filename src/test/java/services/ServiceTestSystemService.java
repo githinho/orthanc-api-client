@@ -35,4 +35,16 @@ public class ServiceTestSystemService extends BaseServiceTest {
             handleOrthancException(e);
         }
     }
+
+    @org.junit.Test
+    public void testModalities() throws IOException {
+        RestClient client = MockClientConstructor.getModalties();
+        try {
+            List<String> plugins = client.getSystemService().getModalities();
+            assertEquals(plugins.size(), 1);
+            assertEquals(plugins.get(0), "modality");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
 }

@@ -26,4 +26,9 @@ public class SystemService extends BaseService {
         Call<List<String>> call = service.getPlugins();
         return checkResponse(call);
     }
+
+    public List<String> getModalities() throws IOException, OrthancException {
+        Call<List<String>> call = service.getModalities();
+        return checkResponse(call);
+    }
 }
