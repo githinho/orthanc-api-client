@@ -5,6 +5,8 @@ import hr.fer.zari.RestClient;
 import hr.fer.zari.models.Header;
 import hr.fer.zari.models.Patient;
 import hr.fer.zari.models.Series;
+import hr.fer.zari.models.Statistics.PatientStatistics;
+import hr.fer.zari.models.Statistics.SeriesStatistics;
 
 import java.io.IOException;
 import java.util.List;
@@ -82,6 +84,21 @@ public class ServiceTestSeriesService extends BaseServiceTest {
             Header header = module.get("0008,0005");
             assertEquals(header.getType(), "String");
             assertEquals(header.getName(), "SpecificCharacterSet");
+        } catch (OrthancException e) {
+            handleOrthancException(e);
+        }
+    }
+
+    @org.junit.Test
+    public void testPatientStatistics() throws IOException {
+        RestClient client = MockClientConstructor.getSeriesStatistics();
+        try {
+            SeriesStatistics statistics = client.getSeriesService().getSeriesStatistics("1");
+            assertEquals(statistics.getDiskSize(), "11081078");
+            assertEquals(statistics.getDiskSizeMB(), 10);
+            assertEquals(statistics.getCountInstances(), 227);
+            assertEquals(statistics.getUncompressedSize(), "11081078");
+            assertEquals(statistics.getUncompressedSizeMB(), 10);
         } catch (OrthancException e) {
             handleOrthancException(e);
         }

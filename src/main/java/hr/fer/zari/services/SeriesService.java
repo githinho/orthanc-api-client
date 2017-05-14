@@ -5,6 +5,8 @@ import hr.fer.zari.OrthancService;
 import hr.fer.zari.models.Header;
 import hr.fer.zari.models.Patient;
 import hr.fer.zari.models.Series;
+import hr.fer.zari.models.Statistics.PatientStatistics;
+import hr.fer.zari.models.Statistics.SeriesStatistics;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 
@@ -53,6 +55,11 @@ public class SeriesService extends BaseService {
 
     public Map<String, Header> getSeriesSharedTags(String seriesId) throws IOException, OrthancException {
         Call<Map<String, Header>> call = service.getSeriesSharedTags(seriesId);
+        return checkResponse(call);
+    }
+
+    public SeriesStatistics getSeriesStatistics(String seriesId) throws IOException, OrthancException {
+        Call<SeriesStatistics> call = service.getSeriesStatistics(seriesId);
         return checkResponse(call);
     }
 
