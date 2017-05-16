@@ -18,34 +18,48 @@ public class InstanceService extends BaseService {
         super(service);
     }
 
-    public List<Instance> getInstacesForSeries(String seriesId) throws IOException, OrthancException {
-        Call<List<Instance>> call = service.getInstancesForSeries(seriesId);
-        return checkResponse(call);
+    public Call<List<Instance>> getInstancesForSeriesAsync(String seriesId) {
+        return service.getInstancesForSeries(seriesId);
+    }
+
+    public List<Instance> getInstancesForSeries(String seriesId) throws IOException, OrthancException {
+        return checkResponse(getInstancesForSeriesAsync(seriesId));
+    }
+
+    public Call<List<String>> getInstancesAsync() {
+        return service.getInstances();
     }
 
     public List<String> getInstances() throws IOException, OrthancException {
-        Call<List<String>> call = service.getInstances();
-        return checkResponse(call);
+        return checkResponse(getInstancesAsync());
+    }
+
+    public Call<Instance> getInstanceAsync(String instanceId) {
+        return service.getInstance(instanceId);
     }
 
     public Instance getInstance(String instanceId) throws IOException, OrthancException {
-        Call<Instance> call = service.getInstance(instanceId);
-        return checkResponse(call);
+        return checkResponse(getInstanceAsync(instanceId));
     }
 
+    public Call<List<Instance>> getInstancesForPatientAsync(String patientId) {
+        return service.getPatientInstances(patientId);
+    }
+
+    public List<Instance> getInstancesForPatient(String patientId) throws IOException, OrthancException {
+        return checkResponse(getInstancesForPatientAsync(patientId));
+    }
+
+    public Call<List<String>> getInstanceContentAsync(String instanceId) {
+        return service.getInstanceContent(instanceId);
+    }
+
+    public List<String> getInstanceContent(String instanceId) throws IOException, OrthancException {
+        return checkResponse(getInstanceContentAsync(instanceId));
+    }
     public void downloadInstanceDicom(String id, String filePath) throws IOException, OrthancException {
         Call<ResponseBody> call = service.getInstanceDicomData(id);
         ResponseBody body = checkResponse(call);
         writeResponseBodyToDisk(body, filePath);
-    }
-
-    public List<Instance> getInstancesForPatient(String patientId) throws IOException, OrthancException {
-        Call<List<Instance>> call = service.getPatientInstances(patientId);
-        return checkResponse(call);
-    }
-
-    public List<String> getInstanceContent(String instanceId) throws IOException, OrthancException {
-        Call<List<String>> call = service.getInstanceContent(instanceId);
-        return checkResponse(call);
     }
 }

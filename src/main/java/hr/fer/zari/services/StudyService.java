@@ -19,19 +19,28 @@ public class StudyService extends BaseService {
         super(service);
     }
 
+    public Call<List<Study>> getStudiesForPatientAsync(String patientId) {
+        return service.getStudiesForPatient(patientId);
+    }
+
     public List<Study> getStudiesForPatient(String patientId) throws IOException, OrthancException {
-        Call<List<Study>> call = service.getStudiesForPatient(patientId);
-        return checkResponse(call);
+        return checkResponse(getStudiesForPatientAsync(patientId));
+    }
+
+    public Call<List<String>>  getStudiesIdsAsync() throws IOException, OrthancException {
+        return service.getStudies();
     }
 
     public List<String> getStudiesIds() throws IOException, OrthancException {
-        Call<List<String>> call = service.getStudies();
-        return checkResponse(call);
+        return checkResponse(getStudiesIdsAsync());
+    }
+
+    public Call<Study> getStudyAsync(String studyId) {
+        return service.getStudy(studyId);
     }
 
     public Study getStudy(String studyId) throws IOException, OrthancException {
-        Call<Study> call = service.getStudy(studyId);
-        return checkResponse(call);
+        return checkResponse(getStudyAsync(studyId));
     }
 
     public List<Study> getStudies() throws IOException, OrthancException {

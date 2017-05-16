@@ -121,7 +121,7 @@ public class TestPrint {
 
     private static void printListOfInstancesForSeries(String seriesId) {
         try {
-            List<Instance> instances = client.getInstanceService().getInstacesForSeries(seriesId);
+            List<Instance> instances = client.getInstanceService().getInstancesForSeries(seriesId);
             for (Instance instance : instances) {
                 System.out.println(instance.toString());
             }

@@ -23,44 +23,68 @@ public class SeriesService extends BaseService {
         super(service);
     }
 
+    public Call<List<Series>> getSeriesForStudyAsync(String studyId) {
+        return service.getSeriesForStudy(studyId);
+    }
+
     public List<Series> getSeriesForStudy(String studyId) throws IOException, OrthancException {
-        Call<List<Series>> call = service.getSeriesForStudy(studyId);
-        return checkResponse(call);
+        return checkResponse(getSeriesForStudyAsync(studyId));
+    }
+
+    public Call<List<String>> getSeriesAsync() {
+        return service.getSeries();
     }
 
     public List<String> getSeries() throws IOException, OrthancException {
-        Call<List<String>> call = service.getSeries();
-        return checkResponse(call);
+        return checkResponse(getSeriesAsync());
+    }
+
+    public Call<Series> getSeriesAsync(String seriesId) {
+        return service.getSeries(seriesId);
     }
 
     public Series getSeries(String seriesId) throws IOException, OrthancException {
-        Call<Series> call = service.getSeries(seriesId);
-        return checkResponse(call);
+        return checkResponse(getSeriesAsync(seriesId));
+    }
+
+    public Call<List<Series>> getSeriesForPatientAsync(String patientId) {
+        return service.getPatientSeries(patientId);
     }
 
     public List<Series> getSeriesForPatient(String patientId) throws IOException, OrthancException {
-        Call<List<Series>> call = service.getPatientSeries(patientId);
-        return checkResponse(call);
+        return checkResponse(getSeriesForPatientAsync(patientId));
+    }
+
+    public Call<Map<String, Header>> getSeriesModuleAsync(String seriesId) {
+        return service.getSeriesModule(seriesId);
     }
 
     public Map<String, Header> getSeriesModule(String seriesId) throws IOException, OrthancException {
-        Call<Map<String, Header>> call = service.getSeriesModule(seriesId);
-        return checkResponse(call);
+        return checkResponse(getSeriesModuleAsync(seriesId));
+    }
+
+    public Call<Patient> getSeriesPatientAsync(String seriesId) {
+        return service.getSeriesPatient(seriesId);
     }
 
     public Patient getSeriesPatient(String seriesId) throws IOException, OrthancException {
-        Call<Patient> call = service.getSeriesPatient(seriesId);
-        return checkResponse(call);
+        return checkResponse(getSeriesPatientAsync(seriesId));
+    }
+
+    public Call<Map<String, Header>> getSeriesSharedTagsAsync(String seriesId) {
+        return service.getSeriesSharedTags(seriesId);
     }
 
     public Map<String, Header> getSeriesSharedTags(String seriesId) throws IOException, OrthancException {
-        Call<Map<String, Header>> call = service.getSeriesSharedTags(seriesId);
-        return checkResponse(call);
+        return checkResponse(getSeriesSharedTagsAsync(seriesId));
+    }
+
+    public Call<SeriesStatistics> getSeriesStatisticsAsync(String seriesId) {
+        return service.getSeriesStatistics(seriesId);
     }
 
     public SeriesStatistics getSeriesStatistics(String seriesId) throws IOException, OrthancException {
-        Call<SeriesStatistics> call = service.getSeriesStatistics(seriesId);
-        return checkResponse(call);
+        return checkResponse(getSeriesStatisticsAsync(seriesId));
     }
 
     public void downloadSeriesArchive(String seriesId, String filePath) throws IOException, OrthancException {

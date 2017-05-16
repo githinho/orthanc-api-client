@@ -18,23 +18,35 @@ public class SystemService extends BaseService {
         super(service);
     }
 
+    public Call<SystemInfo> getSystemInfoAsync() {
+        return service.getSystemInfo();
+    }
+
     public SystemInfo getSystemInfo() throws IOException, OrthancException {
-        Call<SystemInfo> call = service.getSystemInfo();
-        return checkResponse(call);
+        return checkResponse(getSystemInfoAsync());
+    }
+
+    public Call<List<String>> getPluginsAsync() {
+        return service.getPlugins();
     }
 
     public List<String> getPlugins() throws IOException, OrthancException {
-        Call<List<String>> call = service.getPlugins();
-        return checkResponse(call);
+        return checkResponse(getPluginsAsync());
+    }
+
+    public Call<List<String>> getModalitiesAsync() {
+        return service.getModalities();
     }
 
     public List<String> getModalities() throws IOException, OrthancException {
-        Call<List<String>> call = service.getModalities();
-        return checkResponse(call);
+        return checkResponse(getModalitiesAsync());
+    }
+
+    public Call<SystemStatistics> getStatisticsAsync() {
+        return service.getStatistics();
     }
 
     public SystemStatistics getStatistics() throws IOException, OrthancException {
-        Call<SystemStatistics> call = service.getStatistics();
-        return checkResponse(call);
+        return checkResponse(getStatisticsAsync());
     }
 }
