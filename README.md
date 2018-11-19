@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/githinho/orthancAPIClient.svg?branch=master)](https://travis-ci.org/githinho/orthancAPIClient)
+[![codecov](https://codecov.io/gh/githinho/orthancAPIClient/branch/master/graph/badge.svg)](https://codecov.io/gh/githinho/orthancAPIClient)
+
 # Orthanc API Client in Java
 Partly implemented Orthanc API Client written in Java using Retrofit.
 
