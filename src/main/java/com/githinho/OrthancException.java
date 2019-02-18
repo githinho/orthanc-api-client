@@ -1,8 +1,5 @@
-package hr.fer.zari;
+package com.githinho;
 
-/**
- * Created by eugen on 18/12/2016.
- */
 public class OrthancException extends Exception {
 
     public OrthancException() {

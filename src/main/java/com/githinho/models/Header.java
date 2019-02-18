@@ -1,8 +1,5 @@
-package hr.fer.zari.models;
+package com.githinho.models;
 
-/**
- * Created by eugen on 09/03/2017.
- */
 public class Header {
 
     private String Name;

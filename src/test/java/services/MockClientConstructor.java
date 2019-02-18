@@ -1,12 +1,9 @@
 package services;
 
-import hr.fer.zari.RestClient;
+import com.githinho.RestClient;
 
 import java.io.IOException;
 
-/**
- * Created by eugen on 13/05/2017.
- */
 class MockClientConstructor {
 
     private static final String PATIENTS = "patients.json";

@@ -1,8 +1,8 @@
-package hr.fer.zari.services;
+package com.githinho.services;
 
-import hr.fer.zari.OrthancException;
-import hr.fer.zari.OrthancService;
-import hr.fer.zari.models.Study;
+import com.githinho.OrthancException;
+import com.githinho.OrthancService;
+import com.githinho.models.Study;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 
@@ -10,9 +10,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by eugen on 13/05/2017.
- */
 public class StudyService extends BaseService {
 
     public StudyService(OrthancService service) {

@@ -1,11 +1,8 @@
-package hr.fer.zari.models;
+package com.githinho.models;
 
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * Created by eugen on 01/12/2016.
- */
 public class Series extends AbstractModel{
 
     private List<String> Instances;

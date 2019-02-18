@@ -1,5 +1,5 @@
-group 'hr.fer.rasip.midom'
-version '1.0-SNAPSHOT'
+group 'com.github.githinho'
+version '0.1'
 
 apply plugin: 'java'
 apply plugin: 'jacoco'

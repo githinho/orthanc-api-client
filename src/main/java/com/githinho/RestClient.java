@@ -1,6 +1,10 @@
-package hr.fer.zari;
+package com.githinho;
 
-import hr.fer.zari.services.*;
+import com.githinho.services.InstanceService;
+import com.githinho.services.PatientService;
+import com.githinho.services.SeriesService;
+import com.githinho.services.StudyService;
+import com.githinho.services.SystemService;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -12,9 +16,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import javax.xml.bind.DatatypeConverter;
 import java.io.IOException;
 
-/**
- * Created by eugen on 01/12/2016.
- */
 public class RestClient {
 
     private SystemService systemService;

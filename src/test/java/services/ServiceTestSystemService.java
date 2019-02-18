@@ -1,18 +1,15 @@
 package services;
 
-import hr.fer.zari.OrthancException;
-import hr.fer.zari.RestClient;
-import hr.fer.zari.models.Statistics.SystemStatistics;
-import hr.fer.zari.models.SystemInfo;
+import com.githinho.OrthancException;
+import com.githinho.RestClient;
+import com.githinho.models.Statistics.SystemStatistics;
+import com.githinho.models.SystemInfo;
 
 import java.io.IOException;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by eugen on 12/05/2017.
- */
 public class ServiceTestSystemService extends BaseServiceTest {
 
     @org.junit.Test

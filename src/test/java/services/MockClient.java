@@ -1,6 +1,6 @@
 package services;
 
-import hr.fer.zari.RestClient;
+import com.githinho.RestClient;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 
@@ -10,9 +10,6 @@ import java.io.InputStream;
 
 import static java.net.HttpURLConnection.HTTP_OK;
 
-/**
- * Created by eugen on 13/05/2017.
- */
 class MockClient {
 
     private RestClient client;

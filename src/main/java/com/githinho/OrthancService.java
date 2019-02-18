@@ -1,18 +1,25 @@
-package hr.fer.zari;
+package com.githinho;
 
-import hr.fer.zari.models.*;
-import hr.fer.zari.models.Header;
-import hr.fer.zari.models.Statistics.*;
+import com.githinho.models.Header;
+import com.githinho.models.Instance;
+import com.githinho.models.Patient;
+import com.githinho.models.Series;
+import com.githinho.models.Statistics.PatientStatistics;
+import com.githinho.models.Statistics.SeriesStatistics;
+import com.githinho.models.Statistics.Statistics;
+import com.githinho.models.Statistics.StudyStatistics;
+import com.githinho.models.Statistics.SystemStatistics;
+import com.githinho.models.Study;
+import com.githinho.models.SystemInfo;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
-import retrofit2.http.*;
+import retrofit2.http.GET;
+import retrofit2.http.Path;
+import retrofit2.http.Streaming;
 
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by eugen on 01/12/2016.
- */
 public interface OrthancService {
 
     /* SYSTEM */
@@ -39,13 +46,13 @@ public interface OrthancService {
     Call<ResponseBody> getPatientMedia(@Path("id") String patientId);
     /* */
     @GET("patients/{id}/module")
-    Call<Map<String, Header>> getPatientModule(@Path("id") String patientId);
+    Call<Map<String, com.githinho.models.Header>> getPatientModule(@Path("id") String patientId);
     /* Retrieve all the series of this patient in a single REST call */
     @GET("patients/{id}/series")
     Call<List<Series>> getPatientSeries(@Path("id") String patientId);
     /* "?simplify" argument to simplify output */
     @GET("patients/{id}/shared-tags")
-    Call<Map<String, Header>> getPatientSharedTags(@Path("id") String patientId);
+    Call<Map<String, com.githinho.models.Header>> getPatientSharedTags(@Path("id") String patientId);
     /* */
     @GET("patients/{id}/statistics")
     Call<PatientStatistics> getPatientStatistics(@Path("id") String patientId);
@@ -75,13 +82,13 @@ public interface OrthancService {
     Call<List<Instance>> getSeriesMedia(@Path("id") String seriesId);
     /* "?simplify" argument to simplify output */
     @GET("series/{id}/module")
-    Call<Map<String, Header>> getSeriesModule(@Path("id") String seriesId);
+    Call<Map<String, com.githinho.models.Header>> getSeriesModule(@Path("id") String seriesId);
     /* Retrieve the parent study of this series */
     @GET("series/{id}/patient")
     Call<Patient> getSeriesPatient(@Path("id") String seriesId);
     /* "?simplify" argument to simplify output */
     @GET("series/{id}/shared-tags")
-    Call<Map<String, Header>> getSeriesSharedTags(@Path("id") String seriesId);
+    Call<Map<String, com.githinho.models.Header>> getSeriesSharedTags(@Path("id") String seriesId);
     /* */
     @GET("series/{id}/statistics")
     Call<SeriesStatistics> getSeriesStatistics(@Path("id") String seriesId);
@@ -103,10 +110,10 @@ public interface OrthancService {
     Call<ResponseBody> getStudyMedia(@Path("id") String studyId);
     /* "?simplify" argument to simplify output */
     @GET("studies/{id}/module")
-    Call<Map<String, Header>> getStudyModule(@Path("id") String studyId);
+    Call<Map<String, com.githinho.models.Header>> getStudyModule(@Path("id") String studyId);
     /* "?simplify" argument to simplify output */
     @GET("studies/{id}/module-patient")
-    Call<Map<String, Header>> getStudyModulePatient(@Path("id") String studyId);
+    Call<Map<String, com.githinho.models.Header>> getStudyModulePatient(@Path("id") String studyId);
     /* "Retrieve the parent patient of this study */
     @GET("studies/{id}/patient")
     Call<Patient> getStudyPatient(@Path("id") String studyId);
@@ -115,7 +122,7 @@ public interface OrthancService {
     Call<List<Series>> getSeriesForStudy(@Path("id") String studyId);
     /* "?simplify" argument to simplify output */
     @GET("studies/{id}/shared-tags")
-    Call<Map<String, Header>> getStudySharedTags(@Path("id") String studyId);
+    Call<Map<String, com.githinho.models.Header>> getStudySharedTags(@Path("id") String studyId);
     /* */
     @GET("study/{id}/statistics")
     Call<StudyStatistics> getStudyStatistics(@Path("id") String studyId);
@@ -166,7 +173,7 @@ public interface OrthancService {
 
     /* Get the meta information (header) of the DICOM file, "?simplify" argument to simplify output */
     @GET("instances/{id}/header")
-    Call<Map<String, Header>> getInstanceHeader(@Path("id") String instanceId);
+    Call<Map<String, com.githinho.models.Header>> getInstanceHeader(@Path("id") String instanceId);
 
     /* Truncated image to the [-32768;32767] range */
     @GET("instances/{id}/image-int16")
@@ -188,7 +195,7 @@ public interface OrthancService {
     Call<ResponseBody> getInstancePDF(@Path("id") String instanceId);
     /* */
     @GET("instances/{id}/module")
-    Call<Map<String, Header>> getInstanceModule(@Path("id") String instanceId);
+    Call<Map<String, com.githinho.models.Header>> getInstanceModule(@Path("id") String instanceId);
     /* Retrieve the parent patient of this instance */
     @GET("instances/{id}/patient")
     Call<Patient> getInstancePatient(@Path("id") String instanceId);

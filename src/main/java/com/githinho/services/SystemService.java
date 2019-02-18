@@ -1,17 +1,14 @@
-package hr.fer.zari.services;
+package com.githinho.services;
 
-import hr.fer.zari.OrthancException;
-import hr.fer.zari.OrthancService;
-import hr.fer.zari.models.Statistics.SystemStatistics;
-import hr.fer.zari.models.SystemInfo;
+import com.githinho.OrthancException;
+import com.githinho.OrthancService;
+import com.githinho.models.SystemInfo;
+import com.githinho.models.Statistics.SystemStatistics;
 import retrofit2.Call;
 
 import java.io.IOException;
 import java.util.List;
 
-/**
- * Created by eugen on 13/05/2017.
- */
 public class SystemService extends BaseService {
 
     public SystemService(OrthancService service) {

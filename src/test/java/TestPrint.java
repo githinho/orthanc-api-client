@@ -1,13 +1,10 @@
-import hr.fer.zari.OrthancException;
-import hr.fer.zari.RestClient;
-import hr.fer.zari.models.*;
+import com.githinho.OrthancException;
+import com.githinho.RestClient;
+import com.githinho.models.*;
 
 import java.io.IOException;
 import java.util.List;
 
-/**
- * Created by eugen on 02/12/2016.
- */
 public class TestPrint {
 
     private static final String API_BASE_URL = "http://demo.orthanc-server.com";

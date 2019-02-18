@@ -1,10 +1,7 @@
-package hr.fer.zari.models;
+package com.githinho.models;
 
 import java.util.HashMap;
 
-/**
- * Created by eugen on 01/12/2016.
- */
 public abstract class AbstractModel {
 
     private String ID;

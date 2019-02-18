@@ -1,8 +1,5 @@
-package hr.fer.zari.models.Statistics;
+package com.githinho.models.Statistics;
 
-/**
- * Created by eugen on 09/03/2017.
- */
 public class StudyStatistics extends SeriesStatistics {
 
     private int CountSeries;

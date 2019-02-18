@@ -1,15 +1,17 @@
-package hr.fer.zari.services;
+package com.githinho.services;
 
-import hr.fer.zari.OrthancException;
-import hr.fer.zari.OrthancService;
+import com.githinho.OrthancException;
+import com.githinho.OrthancService;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
-/**
- * Created by eugen on 13/05/2017.
- */
+
 public abstract class BaseService {
 
     protected OrthancService service;

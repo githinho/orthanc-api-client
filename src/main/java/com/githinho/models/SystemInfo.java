@@ -1,8 +1,5 @@
-package hr.fer.zari.models;
+package com.githinho.models;
 
-/**
- * Created by eugen on 18/12/2016.
- */
 public class SystemInfo {
 
     private String DatabaseBackendPlugin;

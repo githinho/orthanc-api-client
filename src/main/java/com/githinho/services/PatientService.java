@@ -1,10 +1,10 @@
-package hr.fer.zari.services;
+package com.githinho.services;
 
-import hr.fer.zari.OrthancException;
-import hr.fer.zari.OrthancService;
-import hr.fer.zari.models.Header;
-import hr.fer.zari.models.Patient;
-import hr.fer.zari.models.Statistics.PatientStatistics;
+import com.githinho.OrthancException;
+import com.githinho.OrthancService;
+import com.githinho.models.Header;
+import com.githinho.models.Patient;
+import com.githinho.models.Statistics.PatientStatistics;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 
@@ -13,9 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by eugen on 13/05/2017.
- */
 public class PatientService extends BaseService{
 
     public PatientService(OrthancService service) {
