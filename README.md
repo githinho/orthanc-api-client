@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/githinho/orthancAPIClient.svg?branch=master)](https://travis-ci.org/githinho/orthancAPIClient)
+[![Build Status](https://travis-ci.org/githinho/orthanc-api-client.svg?branch=master)](https://travis-ci.org/githinho/orthanc-api-client)
 [![codecov](https://codecov.io/gh/githinho/orthancAPIClient/branch/master/graph/badge.svg)](https://codecov.io/gh/githinho/orthancAPIClient)
 [![Release](https://jitpack.io/v/githinho/orthancAPIClient.svg)](https://jitpack.io/#githinho/orthancAPIClient)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgithinho%2Forthanc-api-client.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgithinho%2Forthanc-api-client?ref=badge_shield)
