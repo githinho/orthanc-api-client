@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/githinho/orthanc-api-client.svg?branch=master)](https://travis-ci.org/githinho/orthanc-api-client)
-[![codecov](https://codecov.io/gh/githinho/orthanc-api-client/branch/master/graph/badge.svg)](https://codecov.io/gh/githinho/orthanc-api-client)
 [![Release](https://jitpack.io/v/githinho/orthancAPIClient.svg)](https://jitpack.io/#githinho/orthancAPIClient)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/githinho/orthanc-api-client.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/githinho/orthanc-api-client/context:java)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/githinho/orthanc-api-client.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/githinho/orthanc-api-client/alerts/)
+[![codecov](https://codecov.io/gh/githinho/orthanc-api-client/branch/master/graph/badge.svg)](https://codecov.io/gh/githinho/orthanc-api-client)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgithinho%2Forthanc-api-client.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgithinho%2Forthanc-api-client?ref=badge_shield)
 
 # Orthanc API Client in Java
