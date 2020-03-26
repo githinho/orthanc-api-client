@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/githinho/orthanc-api-client.svg?branch=master)](https://travis-ci.org/githinho/orthanc-api-client)
+![Java CI with Gradle](https://github.com/githinho/orthanc-api-client/workflows/Java%20CI%20with%20Gradle/badge.svg?branch=master)
 [![Release](https://jitpack.io/v/githinho/orthancAPIClient.svg)](https://jitpack.io/#githinho/orthancAPIClient)
 [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/githinho/orthanc-api-client.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/githinho/orthanc-api-client/context:java)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/githinho/orthanc-api-client.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/githinho/orthanc-api-client/alerts/)
@@ -13,11 +13,11 @@ Partly implemented Orthanc API Client written in Java using Retrofit.
 [Reference to the Orthanc REST API](https://docs.google.com/spreadsheets/d/1muKHMIb9Br-59wfaQbDeLzAfKYsoWfDSXSmyt6P4EM8/pubhtml?gid=1689572701&single=true). This API Client does not implement all REST API calls.
 
 ## Install 
-Package managers are supported through [JitPack](https://jitpack.io/#githinho/orthancAPIClient/v0.1) which supports Maven, Gradle, SBT, etc.
+Package managers are supported through [JitPack](https://jitpack.io/#githinho/orthancAPIClient) which supports Maven, Gradle, SBT, etc.
 
 For gradle use:
 ```
-    implementation 'com.github.githinho:orthancAPIClient:v0.1'
+    implementation 'com.github.githinho:orthancAPIClient:$version'
 ```
 
 ## Usage
