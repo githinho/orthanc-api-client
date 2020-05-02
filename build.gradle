@@ -13,7 +13,7 @@ repositories {
 }
 
 ext {
-    okHttpVersion = '4.5.0'
+    okHttpVersion = '4.6.0'
     retrofitVersion = '2.8.1'
 }
 
