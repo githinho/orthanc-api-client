@@ -23,7 +23,7 @@ dependencies {
     compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
     compile "com.squareup.retrofit2:converter-gson:$retrofitVersion"
 
-    testCompile 'junit:junit:4.13'
+    testCompile 'junit:junit:4.13.2'
     testCompile "com.squareup.okhttp3:mockwebserver:$okHttpVersion"
 }
 
